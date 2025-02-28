@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ODM xmlns="http://www.cdisc.org/ns/odm/v1.3" xmlns:ns2="http://www.w3.org/2000/09/xmldsig#" Description="OMOP Common Data Model (CDM) Condition Occurrence" FileType="Snapshot" FileOID="1.3.6.1.4.1.13158.101.4.161219210740" CreationDateTime="2019-02-28T09:11:39+01:00" ODMVersion="1.3" SourceSystem="ODMedit">
+    <Study OID="S.0000">
+        <GlobalVariables>
+            <StudyName>35319_OMOP Common Data Model (CDM) Condition Occurrence</StudyName>
+            <StudyDescription>OMOP Common Data Model (CDM) Condition Occurrence&#13;
+&#13;
+Conditions are records of a Person suggesting the presence of a disease or medical condition stated as a diagnosis, a sign, or a symptom, which is either observed by a Provider or reported by the patient. Conditions are recorded in different sources and levels of standardization, for example: Medical claims data include diagnoses coded in Source Vocabularies such as ICD-9-CM that are submitted as part of a reimbursement claim for health services. EHRs may capture Person conditions in the form of diagnosis codes or symptoms.&#13;
+&#13;
+OMOP Common Data Model Version 6.0 Specifications 11October2018. The Observational Medical Outcomes Partnership (OMOP) was a public-private partnership established&#13;
+to inform the appropriate use of observational healthcare databases for studying the effects of medical products. © 2014 Observational Health Data Sciences and Informatics Version updated on 28.02.2019, from https://github.com/OHDSI/CommonDataModel/wiki/CONDITION_OCCURENCE.&#13;
+&#13;
+Valid Condition Concepts belong to the 'Condition' domain. Condition records are typically inferred from diagnostic codes recorded in the source data. Such code systems, like ICD-9-CM, ICD-10-CM, Read etc., provide a comprehensive coverage of conditions. However, if the diagnostic code in the source does not define a condition, but rather an observation or a procedure, then such information is not stored in the CONDITION_OCCURRENCE table, but in the respective tables indicated by the domain.&#13;
+Source Condition identifiers are mapped to Standard Concepts for Conditions in the Standardized Vocabularies. When the source code cannot be translated into a Standard Concept, a CONDITION_OCCURRENCE entry is stored with only the corresponding SOURCE_CONCEPT_ID and SOURCE_VALUE, while the CONDITION_CONCEPT_ID is set to 0. Family history and past diagnoses ('history of') are not recorded in the CONDITION_OCCURRENCE table. Instead, they are listed in the OBSERVATION table.&#13;
+Codes written in the process of establishing the diagnosis, such as 'question of' of and 'rule out', are not represented here. Instead, they are listed in the OBSERVATION table, if they are used for analyses. A Condition Occurrence Type is assigned based on the data source and type of condition attribute, for example: ICD-9-CM Primary Diagnosis from inpatient and outpatient claims, ICD-9-CM Secondary Diagnoses from inpatient and outpatient claims, Diagnoses or problems recorded in an EHR.&#13;
+Valid Condition Occurrence Type Concepts belong to the 'Condition Type' vocabulary in the 'Type Concept' domain. The Stop Reason indicates why a Condition is no longer valid with respect to the purpose within the source data. Typical values include 'Discharged', 'Resolved', etc. Note that a Stop Reason does not necessarily imply that the condition is no longer occurring. Condition source codes are typically ICD-9-CM, Read or ICD-10-CM diagnosis codes from medical claims or discharge status/visit diagnosis codes from EHRs. Presently, there is no designated vocabulary, domain, or class that represents condition status. For more information, please see: https://github.com/OHDSI/CommonDataModel/wiki/CONDITION_OCCURENCE&#13;
+ </StudyDescription>
+            <ProtocolName>TEST Protocol</ProtocolName>
+        </GlobalVariables>
+        <BasicDefinitions/>
+        <MetaDataVersion OID="MD.1" Name="Metadataversion">
+            <Protocol>
+                <StudyEventRef OrderNumber="1" Mandatory="Yes" StudyEventOID="SE.1"/>
+            </Protocol>
+            <StudyEventDef OID="SE.1" Name="ODM" Repeating="No" Type="Unscheduled">
+                <FormRef OrderNumber="1" Mandatory="No" FormOID="F.1"/>
+            </StudyEventDef>
+            <FormDef OID="F.1" Name="OMOP Common Data Model (CDM) Condition Occurrence" Repeating="No">
+                <ItemGroupRef ItemGroupOID="IG.1" OrderNumber="1" Mandatory="No"/>
+            </FormDef>
+            <ItemGroupDef OID="IG.1" Name="Condition Occurrence" Repeating="No" Comment="">
+                <Description>
+                    <TranslatedText xml:lang="en">Condition Occurrence</TranslatedText>
+                </Description>
+                <ItemRef OrderNumber="1" Mandatory="Yes" ItemOID="I.1"/>
+                <ItemRef OrderNumber="2" Mandatory="Yes" ItemOID="I.2"/>
+                <ItemRef OrderNumber="3" Mandatory="Yes" ItemOID="I.3"/>
+                <ItemRef OrderNumber="4" Mandatory="No" ItemOID="I.4"/>
+                <ItemRef OrderNumber="5" Mandatory="Yes" ItemOID="I.8"/>
+                <ItemRef OrderNumber="6" Mandatory="No" ItemOID="I.5"/>
+                <ItemRef OrderNumber="7" Mandatory="Yes" ItemOID="I.13"/>
+                <ItemRef OrderNumber="8" Mandatory="Yes" ItemOID="I.6"/>
+                <ItemRef OrderNumber="9" Mandatory="Yes" ItemOID="I.14"/>
+                <ItemRef OrderNumber="10" Mandatory="No" ItemOID="I.7"/>
+                <ItemRef OrderNumber="11" Mandatory="No" ItemOID="I.9"/>
+                <ItemRef OrderNumber="12" Mandatory="No" ItemOID="I.10"/>
+                <ItemRef OrderNumber="13" Mandatory="No" ItemOID="I.15"/>
+                <ItemRef OrderNumber="14" Mandatory="No" ItemOID="I.11"/>
+                <ItemRef OrderNumber="15" Mandatory="No" ItemOID="I.12"/>
+                <ItemRef OrderNumber="16" Mandatory="No" ItemOID="I.16"/>
+                <Alias Context="UMLS CUI-1" Name="C0012634"/>
+                <Alias Context="UMLS CUI-2" Name="C2745955"/>
+            </ItemGroupDef>
+            <ItemDef OID="I.1" Name="Condition Occurrence ID" DataType="integer" Length="255">
+                <Description>
+                    <TranslatedText xml:lang="en">A unique identifier for each condition occurrence&#13;
+event. (Type bigint)</TranslatedText>
+                </Description>
+                <Question>
+                    <TranslatedText xml:lang="en">Condition Occurrence ID</TranslatedText>
+                </Question>
+                <Alias Context="UMLS CUI [1,1]" Name="C0012634"/>
+                <Alias Context="UMLS CUI [1,2]" Name="C2745955"/>
+                <Alias Context="UMLS CUI [1,3]" Name="C1300638"/>
+            </ItemDef>
+            <ItemDef OID="I.2" Name="Person ID" DataType="integer" Length="255">
+                <Description>
+                    <TranslatedText xml:lang="en">A foreign key identifier to the person who is&#13;
+experiencing the condition. The demographic details&#13;
+of that person are stored in the person table. (Type bigint)</TranslatedText>
+                </Description>
+                <Question>
+                    <TranslatedText xml:lang="en">Person ID</TranslatedText>
+                </Question>
+                <Alias Context="UMLS CUI [1]" Name="C2348585"/>
+            </ItemDef>
+            <ItemDef OID="I.3" Name="Condition concept ID" DataType="integer" Length="255">
+                <Description>
+                    <TranslatedText xml:lang="en">A foreign key that refers to a standard condition&#13;
+concept identifier in the Standardized Vocabularies belonging to the 'Condition' domain.</TranslatedText>
+                </Description>
+                <Question>
+                    <TranslatedText xml:lang="en">Condition concept ID</TranslatedText>
+                </Question>
+                <Alias Context="UMLS CUI [1,1]" Name="C0012634"/>
+                <Alias Context="UMLS CUI [1,2]" Name="C0178566"/>
+                <Alias Context="UMLS CUI [1,3]" Name="C1300638"/>
+            </ItemDef>
+            <ItemDef OID="I.4" Name="Condition start date" DataType="date">
+                <Description>
+                    <TranslatedText xml:lang="en">The date when the instance of the condition is&#13;
+recorded.</TranslatedText>
+                </Description>
+                <Question>
+                    <TranslatedText xml:lang="en">Condition start date</TranslatedText>
+                </Question>
+                <Alias Context="UMLS CUI [1,1]" Name="C0012634"/>
+                <Alias Context="UMLS CUI [1,2]" Name="C0011008"/>
+            </ItemDef>
+            <ItemDef OID="I.5" Name="Condition end date" DataType="date">
+                <Description>
+                    <TranslatedText xml:lang="en">The date when the instance of the condition is&#13;
+considered to have ended.</TranslatedText>
+                </Description>
+                <Question>
+                    <TranslatedText xml:lang="en">Condition end date</TranslatedText>
+                </Question>
+                <Alias Context="UMLS CUI [1,1]" Name="C0012634"/>
+                <Alias Context="UMLS CUI [1,2]" Name="C0011008"/>
+            </ItemDef>
+            <ItemDef OID="I.6" Name="Condition type concept ID" DataType="integer" Length="255">
+                <Description>
+                    <TranslatedText xml:lang="en">A foreign key to the predefined concept identifier in&#13;
+the Standardized Vocabularies reflecting the source&#13;
+data from which the condition was recorded, the level&#13;
+of standardization, and the type of occurrence. These belong to the 'Condition Type' vocabulary</TranslatedText>
+                </Description>
+                <Question>
+                    <TranslatedText xml:lang="en">Condition type concept ID</TranslatedText>
+                </Question>
+                <Alias Context="UMLS CUI [1,1]" Name="C0012634"/>
+                <Alias Context="UMLS CUI [1,2]" Name="C0332307"/>
+                <Alias Context="UMLS CUI [1,3]" Name="C0178566"/>
+                <Alias Context="UMLS CUI [1,4]" Name="C1300638"/>
+            </ItemDef>
+            <ItemDef OID="I.7" Name="Stop reason" DataType="text" Length="20">
+                <Description>
+                    <TranslatedText xml:lang="en">The reason that the Condition was no longer present, as indicated in the source data. (Type varchar(20))</TranslatedText>
+                </Description>
+                <Question>
+                    <TranslatedText xml:lang="en">Stop reason</TranslatedText>
+                </Question>
+                <Alias Context="UMLS CUI [1,1]" Name="C0392360"/>
+                <Alias Context="UMLS CUI [1,2]" Name="C1947925"/>
+                <Alias Context="UMLS CUI [1,3]" Name="C0920316"/>
+                <Alias Context="UMLS CUI [1,4]" Name="C0012634"/>
+            </ItemDef>
+            <ItemDef OID="I.9" Name="Provider ID" DataType="integer" Length="255">
+                <Description>
+                    <TranslatedText xml:lang="en">A foreign key to the Provider in the PROVIDER table who was responsible for capturing (diagnosing) the Condition.</TranslatedText>
+                </Description>
+                <Question>
+                    <TranslatedText xml:lang="en">Provider ID</TranslatedText>
+                </Question>
+                <Alias Context="UMLS CUI [1,1]" Name="C1138603"/>
+                <Alias Context="UMLS CUI [1,2]" Name="C1300638"/>
+            </ItemDef>
+            <ItemDef OID="I.10" Name="Visit occurrence ID" DataType="integer" Length="255">
+                <Description>
+                    <TranslatedText xml:lang="en">A foreign key to the visit in the VISIT_OCCURRENCE table during which the Condition was determined (diagnosed).</TranslatedText>
+                </Description>
+                <Question>
+                    <TranslatedText xml:lang="en">Visit occurrence ID</TranslatedText>
+                </Question>
+                <Alias Context="UMLS CUI [1,1]" Name="C1512346"/>
+                <Alias Context="UMLS CUI [1,2]" Name="C2745955"/>
+                <Alias Context="UMLS CUI [1,3]" Name="C1300638"/>
+            </ItemDef>
+            <ItemDef OID="I.11" Name="Condition source value" DataType="text" Length="50">
+                <Description>
+                    <TranslatedText xml:lang="en">The source code for the condition as it appears in the&#13;
+source data. This code is mapped to a standard&#13;
+condition concept in the Standardized Vocabularies&#13;
+and the original code is stored here for reference. (ytpe varchar(50))</TranslatedText>
+                </Description>
+                <Question>
+                    <TranslatedText xml:lang="en">Condition source value</TranslatedText>
+                </Question>
+                <Alias Context="UMLS CUI [1,1]" Name="C0012634"/>
+                <Alias Context="UMLS CUI [1,2]" Name="C0449416"/>
+                <Alias Context="UMLS CUI [1,3]" Name="C1522609"/>
+            </ItemDef>
+            <ItemDef OID="I.12" Name="Condition source concept ID" DataType="integer" Length="255">
+                <Description>
+                    <TranslatedText xml:lang="en">A foreign key to a condition concept that refers to the&#13;
+code used in the source.</TranslatedText>
+                </Description>
+                <Question>
+                    <TranslatedText xml:lang="en">Condition source concept ID</TranslatedText>
+                </Question>
+                <Alias Context="UMLS CUI [1,1]" Name="C0012634"/>
+                <Alias Context="UMLS CUI [1,2]" Name="C0449416"/>
+                <Alias Context="UMLS CUI [1,3]" Name="C0178566"/>
+                <Alias Context="UMLS CUI [1,4]" Name="C1300638"/>
+            </ItemDef>
+            <ItemDef OID="I.8" Name="Condition start datetime" DataType="datetime">
+                <Description>
+                    <TranslatedText xml:lang="en">The date and time when the instance of the Condition is recorded.</TranslatedText>
+                </Description>
+                <Question>
+                    <TranslatedText xml:lang="en">Condition start datetime</TranslatedText>
+                </Question>
+                <Alias Context="UMLS CUI [1,1]" Name="C0012634"/>
+                <Alias Context="UMLS CUI [1,2]" Name="C0011008"/>
+                <Alias Context="UMLS CUI [1,3]" Name="C1301880"/>
+            </ItemDef>
+            <ItemDef OID="I.13" Name="Condition end datetime" DataType="datetime">
+                <Description>
+                    <TranslatedText xml:lang="en">The date and time when the instance of the Condition is considered to have ended.</TranslatedText>
+                </Description>
+                <Question>
+                    <TranslatedText xml:lang="en">Condition end datetime</TranslatedText>
+                </Question>
+                <Alias Context="UMLS CUI [1,1]" Name="C0012634"/>
+                <Alias Context="UMLS CUI [1,2]" Name="C0011008"/>
+                <Alias Context="UMLS CUI [1,3]" Name="C1522314"/>
+            </ItemDef>
+            <ItemDef OID="I.14" Name="Condition status concept ID" DataType="integer" Length="255">
+                <Description>
+                    <TranslatedText xml:lang="en">A foreign key that refers to a Standard Concept identifier in the Standardized Vocabularies reflecting the point of care at which the Condition was diagnosed.</TranslatedText>
+                </Description>
+                <Question>
+                    <TranslatedText xml:lang="en">Condition status concept ID</TranslatedText>
+                </Question>
+                <Alias Context="UMLS CUI [1,1]" Name="C0012634"/>
+                <Alias Context="UMLS CUI [1,2]" Name="C0449438"/>
+                <Alias Context="UMLS CUI [1,3]" Name="C0178566"/>
+                <Alias Context="UMLS CUI [1,4]" Name="C1300638"/>
+            </ItemDef>
+            <ItemDef OID="I.15" Name="Visit detail ID" DataType="integer" Length="255">
+                <Description>
+                    <TranslatedText xml:lang="en">A foreign key to the visit in the VISIT_DETAIL table during which the Condition was determined (diagnosed).</TranslatedText>
+                </Description>
+                <Question>
+                    <TranslatedText xml:lang="en">Visit detail ID</TranslatedText>
+                </Question>
+                <Alias Context="UMLS CUI [1,1]" Name="C1512346"/>
+                <Alias Context="UMLS CUI [1,2]" Name="C2745955"/>
+                <Alias Context="UMLS CUI [1,3]" Name="C1300638"/>
+            </ItemDef>
+            <ItemDef OID="I.16" Name="Condition status source value" DataType="text" Length="255">
+                <Description>
+                    <TranslatedText xml:lang="en">The source code for the condition status as it appears in the source data. This code is mapped to a Standard Concept in the Standardized Vocabularies and the original code is stored here for reference. (Type varchar(50))</TranslatedText>
+                </Description>
+                <Question>
+                    <TranslatedText xml:lang="en">Condition status source value</TranslatedText>
+                </Question>
+                <Alias Context="UMLS CUI [1,1]" Name="C0012634"/>
+                <Alias Context="UMLS CUI [1,2]" Name="C0449438"/>
+                <Alias Context="UMLS CUI [1,3]" Name="C0449416"/>
+                <Alias Context="UMLS CUI [1,4]" Name="C1522609"/>
+            </ItemDef>
+        </MetaDataVersion>
+    </Study>
+    <AdminData>
+        <User OID="USR.1">
+            <FirstName>First</FirstName>
+            <LastName>Last</LastName>
+            <Organization>Organization</Organization>
+        </User>
+    </AdminData>
+</ODM>
