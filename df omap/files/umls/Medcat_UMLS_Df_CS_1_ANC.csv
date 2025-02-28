@@ -1,0 +1,343 @@
+TipoDiAnnotazione,ontologies,SOURCE,AttributoNomeCompleto,entity_id,pretty_name,cui,type_ids,types,source_value,detected_name,acc,context_similarity
+Medcat_UMLS_Df_CS_1_ANC,UMLS,Csm,beneficiarysummary-bene_birth_dt,5,Subject Birth Date,C2348576,['T170'],['Intellectual Product'],date of birth,date~of~birth,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,Csm,beneficiarysummary-bene_death_dt,5,Date of death,C1148348,['T079'],['Temporal Concept'],date of death,date~of~death,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,Csm,beneficiarysummary-bene_esrd_ind,6,"Kidney Failure, Chronic",C0022661,['T047'],['Disease or Syndrome'],end stage renal disease,end~stage~renal~disease,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,Csm,beneficiarysummary-sp_copd,8,Chronic Obstructive Airway Disease,C0024117,['T047'],['Disease or Syndrome'],chronic obstructive pulmonary disease,chronic~obstructive~pulmonary~disease,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,Csm,beneficiarysummary-sp_ra_oa,7,Rheumatoid Arthritis,C0003873,['T047'],['Disease or Syndrome'],rheumatoid arthritis,rheumatoid~arthritis,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,Csm,beneficiarysummary-sp_strketia,9,Transient Ischemic Attack,C0007787,['T047'],['Disease or Syndrome'],transient ischemic attack,transient~ischemic~attack,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,Csm,inpatientclaims-nch_bene_ip_ddctbl_amt,5,Deductibles,C0011131,['T170'],['Intellectual Product'],deductible,deductible,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,Csm,inpatientclaims-nch_bene_blood_ddctbl_lblty_am,5,Deductibles,C0011131,['T170'],['Intellectual Product'],deductible,deductible,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,Csm,inpatientclaims-clm_drg_cd,5,Diagnosis-Related Groups,C0011928,['T170'],['Intellectual Product'],diagnosis related group,diagnosis~related~group,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,Csm,inpatientclaims-icd9_prcdr_cd,5,code cpt,C1136322,['T170'],['Intellectual Product'],procedure code,procedure~code,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,Csm,inpatientclaims-icd9_prcdr_cd,9,code cpt,C1136322,['T170'],['Intellectual Product'],procedure code,procedure~code,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,Csm,inpatientclaims-hcpcs_cd,8,Code System,C2347818,['T185'],['Classification'],coding system,coding~system,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,Csm,inpatientclaims-hcpcs_cd,15,Code System,C2347818,['T185'],['Classification'],coding system,coding~system,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,Csm,outpatientclaims-nch_bene_blood_ddctbl_lblty_am,5,Deductibles,C0011131,['T170'],['Intellectual Product'],deductible,deductible,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,Csm,outpatientclaims-icd9_prcdr_cd,5,code cpt,C1136322,['T170'],['Intellectual Product'],procedure code,procedure~code,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,Csm,outpatientclaims-icd9_prcdr_cd,9,code cpt,C1136322,['T170'],['Intellectual Product'],procedure code,procedure~code,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,Csm,outpatientclaims-nch_bene_ptb_ddctbl_amt,4,Deductibles,C0011131,['T170'],['Intellectual Product'],deductible,deductible,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,Csm,outpatientclaims-hcpcs_cd,8,Code System,C2347818,['T185'],['Classification'],coding system,coding~system,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,Csm,outpatientclaims-hcpcs_cd,15,Code System,C2347818,['T185'],['Classification'],coding system,coding~system,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,Csm,carrierclaims-desynpuf_id,2,Suppliers,C0470689,['T097'],['Professional or Occupational Group'],supplier,supplier,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,Csm,carrierclaims-clm_id,2,Suppliers,C0470689,['T097'],['Professional or Occupational Group'],supplier,supplier,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,Csm,carrierclaims-clm_from_dt,2,Suppliers,C0470689,['T097'],['Professional or Occupational Group'],supplier,supplier,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,Csm,carrierclaims-clm_thru_dt,2,Suppliers,C0470689,['T097'],['Professional or Occupational Group'],supplier,supplier,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,Csm,carrierclaims-icd9_dgns_cd,2,Suppliers,C0470689,['T097'],['Professional or Occupational Group'],supplier,supplier,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,Csm,carrierclaims-prf_physn_npi,2,Suppliers,C0470689,['T097'],['Professional or Occupational Group'],supplier,supplier,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,Csm,carrierclaims-tax_num,2,Suppliers,C0470689,['T097'],['Professional or Occupational Group'],supplier,supplier,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,Csm,carrierclaims-hcpcs_cd,2,Suppliers,C0470689,['T097'],['Professional or Occupational Group'],supplier,supplier,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,Csm,carrierclaims-hcpcs_cd,8,Code System,C2347818,['T185'],['Classification'],coding system,coding~system,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,Csm,carrierclaims-hcpcs_cd,14,Code System,C2347818,['T185'],['Classification'],coding system,coding~system,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,Csm,carrierclaims-line_nch_pmt_amt,2,Suppliers,C0470689,['T097'],['Professional or Occupational Group'],supplier,supplier,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,Csm,carrierclaims-line_bene_ptb_ddctbl_amt,2,Suppliers,C0470689,['T097'],['Professional or Occupational Group'],supplier,supplier,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,Csm,carrierclaims-line_bene_ptb_ddctbl_amt,6,Deductibles,C0011131,['T170'],['Intellectual Product'],deductible,deductible,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,Csm,carrierclaims-line_bene_ptb_ddctbl_amt,9,Deductibles,C0011131,['T170'],['Intellectual Product'],deductible,deductible,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,Csm,carrierclaims-line_bene_prmry_pyr_pd_amt,2,Suppliers,C0470689,['T097'],['Professional or Occupational Group'],supplier,supplier,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,Csm,carrierclaims-line_coinsrnc_amt,2,Suppliers,C0470689,['T097'],['Professional or Occupational Group'],supplier,supplier,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,Csm,carrierclaims-line_alowd_chrg_amt,2,Suppliers,C0470689,['T097'],['Professional or Occupational Group'],supplier,supplier,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,Csm,carrierclaims-line_prcsg_ind_cd,2,Suppliers,C0470689,['T097'],['Professional or Occupational Group'],supplier,supplier,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,Csm,carrierclaims-line_icd9_dgns_cd,2,Suppliers,C0470689,['T097'],['Professional or Occupational Group'],supplier,supplier,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,Csm,prescriptiondrugevents-tot_rx_cst_amt,4,cost drug,C0085123,['T081'],['Quantitative Concept'],drug cost,drug~cost,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,Mimic,admissions-religion,7,Religion,C0035039,['T078'],['Idea or Concept'],religion,religion,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,Mimic,callout-submit_wardid,6,Submitted,C1515023,['T169'],['Functional Concept'],submit,submit,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,Mimic,callout-submit_careunit,6,Submitted,C1515023,['T169'],['Functional Concept'],submit,submit,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,Mimic,callout-submit_careunit,8,Submitted,C1515023,['T169'],['Functional Concept'],submit,submit,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,Mimic,d_cpt-category,7,code cpt,C1136322,['T170'],['Intellectual Product'],current procedural terminology (cpt) codes,current~procedural~terminology~cpt~code,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,Mimic,d_cpt-sectionrange,7,code cpt,C1136322,['T170'],['Intellectual Product'],current procedural terminology (cpt) codes,current~procedural~terminology~cpt~code,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,Mimic,d_cpt-sectionheader,7,code cpt,C1136322,['T170'],['Intellectual Product'],current procedural terminology (cpt) codes,current~procedural~terminology~cpt~code,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,Mimic,d_cpt-subsectionrange,7,code cpt,C1136322,['T170'],['Intellectual Product'],current procedural terminology (cpt) codes,current~procedural~terminology~cpt~code,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,Mimic,d_cpt-subsectionheader,7,code cpt,C1136322,['T170'],['Intellectual Product'],current procedural terminology (cpt) codes,current~procedural~terminology~cpt~code,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,Mimic,d_cpt-mincodeinsubsection,7,code cpt,C1136322,['T170'],['Intellectual Product'],current procedural terminology (cpt) codes,current~procedural~terminology~cpt~code,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,Mimic,d_cpt-maxcodeinsubsection,7,code cpt,C1136322,['T170'],['Intellectual Product'],current procedural terminology (cpt) codes,current~procedural~terminology~cpt~code,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,Mimic,d_cpt-mimic_id,7,code cpt,C1136322,['T170'],['Intellectual Product'],current procedural terminology (cpt) codes,current~procedural~terminology~cpt~code,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,Mimic,d_icd_diagnoses-icd9_code,10,"International Classification of Disease, Ninth Revision",C2346503,['T170'],['Intellectual Product'],icd-9) codes,icd~9~code,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,Mimic,d_icd_diagnoses-icd9_code,13,ICD9 - Coding system,C1550213,['T170'],['Intellectual Product'],icd9 code,icd9~code,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,Mimic,d_icd_diagnoses-icd9_code,24,"International Classification of Disease, Ninth Revision",C2346503,['T170'],['Intellectual Product'],icd-9 codes,icd~9~code,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,Mimic,d_icd_diagnoses-short_title,10,"International Classification of Disease, Ninth Revision",C2346503,['T170'],['Intellectual Product'],icd-9) codes,icd~9~code,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,Mimic,d_icd_diagnoses-short_title,22,ICD9 - Coding system,C1550213,['T170'],['Intellectual Product'],icd9_code,icd9~code,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,Mimic,d_icd_diagnoses-long_title,10,"International Classification of Disease, Ninth Revision",C2346503,['T170'],['Intellectual Product'],icd-9) codes,icd~9~code,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,Mimic,d_icd_diagnoses-long_title,22,ICD9 - Coding system,C1550213,['T170'],['Intellectual Product'],icd9_code,icd9~code,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,Mimic,d_icd_diagnoses-mimic_id,10,"International Classification of Disease, Ninth Revision",C2346503,['T170'],['Intellectual Product'],icd-9) codes,icd~9~code,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,Mimic,d_icd_procedures-short_title,10,"International Classification of Disease, Ninth Revision",C2346503,['T170'],['Intellectual Product'],icd-9) codes,icd~9~code,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,Mimic,d_icd_procedures-short_title,22,ICD9 - Coding system,C1550213,['T170'],['Intellectual Product'],icd9_code,icd9~code,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,Mimic,d_icd_procedures-long_title,10,"International Classification of Disease, Ninth Revision",C2346503,['T170'],['Intellectual Product'],icd-9) codes,icd~9~code,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,Mimic,d_icd_procedures-long_title,22,ICD9 - Coding system,C1550213,['T170'],['Intellectual Product'],icd9_code,icd9~code,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,Mimic,d_icd_procedures-mimic_id,10,"International Classification of Disease, Ninth Revision",C2346503,['T170'],['Intellectual Product'],icd-9) codes,icd~9~code,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,Mimic,d_icd_procedures-icd9_code,10,"International Classification of Disease, Ninth Revision",C2346503,['T170'],['Intellectual Product'],icd-9) codes,icd~9~code,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,Mimic,d_icd_procedures-icd9_code,21,"International Classification of Disease, Ninth Revision",C2346503,['T170'],['Intellectual Product'],icd-9 codes,icd~9~code,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,Mimic,drgcodes-drg_type,2,Diagnosis-Related Groups,C0011928,['T170'],['Intellectual Product'],diagnosis related groups,diagnosis~related~group,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,Mimic,drgcodes-drg_code,2,Diagnosis-Related Groups,C0011928,['T170'],['Intellectual Product'],diagnosis related groups,diagnosis~related~group,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,Mimic,drgcodes-description,2,Diagnosis-Related Groups,C0011928,['T170'],['Intellectual Product'],diagnosis related groups,diagnosis~related~group,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,Mimic,drgcodes-drg_severity,2,Diagnosis-Related Groups,C0011928,['T170'],['Intellectual Product'],diagnosis related groups,diagnosis~related~group,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,Mimic,drgcodes-drg_mortality,2,Diagnosis-Related Groups,C0011928,['T170'],['Intellectual Product'],diagnosis related groups,diagnosis~related~group,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,Mimic,drgcodes-mimic_id,2,Diagnosis-Related Groups,C0011928,['T170'],['Intellectual Product'],diagnosis related groups,diagnosis~related~group,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,Mimic,icustays-first_careunit,11,care activity,C1947933,['T052'],['Activity'],cared,cared,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,Mimic,icustays-last_careunit,11,care activity,C1947933,['T052'],['Activity'],cared,cared,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,Mimic,inputevents_mv-starttime,10,C1254366,C1254366,['unk'],[''],input/output,input~output,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,Mimic,inputevents_mv-endtime,9,C1254366,C1254366,['unk'],[''],input/output,input~output,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,Mimic,inputevents_mv-cancelreason,6,cancelled action,C0205544,['T080'],['Qualitative Concept'],cancellation,cancelation,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,Mimic,patients-dob,5,Subject Birth Date,C2348576,['T170'],['Intellectual Product'],dob,dob,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,Mimic,patients-dob,7,Subject Birth Date,C2348576,['T170'],['Intellectual Product'],date of birth,date~of~birth,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,Mimic,patients-dod,6,Date of death,C1148348,['T079'],['Temporal Concept'],date of death,date~of~death,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,Mimic,patients-dod_hosp,6,Date of death,C1148348,['T079'],['Temporal Concept'],date of death,date~of~death,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,Mimic,patients-dod_ssn,5,lung nodule,C0034079,['T033'],['Finding'],ssn,ssn,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,Mimic,patients-dod_ssn,7,Date of death,C1148348,['T079'],['Temporal Concept'],date of death,date~of~death,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,Mimic,prescriptions-drug_type,11,Prescribed medications,C3166216,['T121'],['Pharmacologic Substance'],drug prescribed,drug~prescribed,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,Mimic,prescriptions-drug,9,Prescribed medications,C3166216,['T121'],['Pharmacologic Substance'],drug prescribed,drug~prescribed,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,Mimic,prescriptions-drug_name_poe,9,Prescribed medications,C3166216,['T121'],['Pharmacologic Substance'],drug prescribed,drug~prescribed,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,Mimic,prescriptions-drug_name_generic,10,Prescribed medications,C3166216,['T121'],['Pharmacologic Substance'],drug prescribed,drug~prescribed,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,Mimic,prescriptions-formulary_drug_cd,11,Code System,C2347818,['T185'],['Classification'],coding systems,coding~system,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,Mimic,prescriptions-dose_val_rx,8,Prescribed medications,C3166216,['T121'],['Pharmacologic Substance'],drug prescribed,drug~prescribed,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,Mimic,prescriptions-route,7,Drug Administration Routes,C0013153,['T169'],['Functional Concept'],route of administration,route~of~administration,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,person-year_of_birth,24,Subject Birth Date,C2348576,['T170'],['Intellectual Product'],date of birth,date~of~birth,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,person-month_of_birth,26,Subject Birth Date,C2348576,['T170'],['Intellectual Product'],date of birth,date~of~birth,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,person-day_of_birth,27,Subject Birth Date,C2348576,['T170'],['Intellectual Product'],date of birth,date~of~birth,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,person-race_concept_id,26,vocabularies,C0042926,['T170'],['Intellectual Product'],vocabulary,vocabulary,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,person-ethnicity_concept_id,23,vocabularies,C0042926,['T170'],['Intellectual Product'],vocabularies,vocabulary,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,person-ethnicity_concept_id,27,vocabularies,C0042926,['T170'],['Intellectual Product'],vocabulary,vocabulary,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,person-location_id,20,residencies,C0035182,['T065'],['Educational Activity'],residency,residency,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,person-person_source_value,17,encrypt,C1707909,['T080'],['Qualitative Concept'],encrypted,encrypted,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,person-gender_source_value,32,vocabularies,C0042926,['T170'],['Intellectual Product'],vocabularies,vocabulary,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,person-race_source_value,31,vocabularies,C0042926,['T170'],['Intellectual Product'],vocabularies,vocabulary,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,person-ethnicity_source_value,31,vocabularies,C0042926,['T170'],['Intellectual Product'],vocabularies,vocabulary,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,visit_occurrence-visit_occurrence_id,47,Onset of illness,C0277793,['T079'],['Temporal Concept'],disease onset,disease~onset,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,visit_occurrence-person_id,47,Onset of illness,C0277793,['T079'],['Temporal Concept'],disease onset,disease~onset,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,visit_occurrence-person_id,56,C1698647,C1698647,['unk'],[''],demographic details,demographic~detail,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,visit_occurrence-visit_concept_id,47,Onset of illness,C0277793,['T079'],['Temporal Concept'],disease onset,disease~onset,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,visit_occurrence-visit_concept_id,55,vocabularies,C0042926,['T170'],['Intellectual Product'],vocabularies,vocabulary,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,visit_occurrence-visit_concept_id,57,vocabularies,C0042926,['T170'],['Intellectual Product'],vocabulary,vocabulary,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,visit_occurrence-visit_start_date,47,Onset of illness,C0277793,['T079'],['Temporal Concept'],disease onset,disease~onset,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,visit_occurrence-visit_start_datetime,47,Onset of illness,C0277793,['T079'],['Temporal Concept'],disease onset,disease~onset,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,visit_occurrence-visit_end_date,47,Onset of illness,C0277793,['T079'],['Temporal Concept'],disease onset,disease~onset,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,visit_occurrence-visit_end_datetime,47,Onset of illness,C0277793,['T079'],['Temporal Concept'],disease onset,disease~onset,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,visit_occurrence-visit_type_concept_id,47,Onset of illness,C0277793,['T079'],['Temporal Concept'],disease onset,disease~onset,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,visit_occurrence-visit_type_concept_id,54,vocabularies,C0042926,['T170'],['Intellectual Product'],vocabularies,vocabulary,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,visit_occurrence-visit_type_concept_id,63,vocabularies,C0042926,['T170'],['Intellectual Product'],vocabulary,vocabulary,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,visit_occurrence-provider_id,47,Onset of illness,C0277793,['T079'],['Temporal Concept'],disease onset,disease~onset,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,visit_occurrence-care_site_id,47,Onset of illness,C0277793,['T079'],['Temporal Concept'],disease onset,disease~onset,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,visit_occurrence-visit_source_value,47,Onset of illness,C0277793,['T079'],['Temporal Concept'],disease onset,disease~onset,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,visit_occurrence-visit_source_concept_id,47,Onset of illness,C0277793,['T079'],['Temporal Concept'],disease onset,disease~onset,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,visit_occurrence-admitted_from_concept_id,47,Onset of illness,C0277793,['T079'],['Temporal Concept'],disease onset,disease~onset,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,visit_occurrence-admitted_from_concept_id,54,vocabularies,C0042926,['T170'],['Intellectual Product'],vocabulary,vocabulary,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,visit_occurrence-admitted_from_source_value,47,Onset of illness,C0277793,['T079'],['Temporal Concept'],disease onset,disease~onset,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,visit_occurrence-discharge_to_concept_id,47,Onset of illness,C0277793,['T079'],['Temporal Concept'],disease onset,disease~onset,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,visit_occurrence-discharge_to_concept_id,54,vocabularies,C0042926,['T170'],['Intellectual Product'],vocabulary,vocabulary,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,visit_occurrence-discharge_to_concept_id,56,Discharge disposition:Type:Pt:^Patient:Nom,C4019243,['T201'],['Clinical Attribute'],discharge disposition,discharge~disposition,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,visit_occurrence-discharge_to_source_value,47,Onset of illness,C0277793,['T079'],['Temporal Concept'],disease onset,disease~onset,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,visit_occurrence-discharge_to_source_value,52,Discharge disposition:Type:Pt:^Patient:Nom,C4019243,['T201'],['Clinical Attribute'],discharge disposition,discharge~disposition,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,visit_occurrence-preceding_visit_occurrence_id,47,Onset of illness,C0277793,['T079'],['Temporal Concept'],disease onset,disease~onset,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,visit_detail-person_id,40,C1698647,C1698647,['unk'],[''],demographic details,demographic~detail,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,visit_detail-visit_detail_concept_id,39,vocabularies,C0042926,['T170'],['Intellectual Product'],vocabularies,vocabulary,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,visit_detail-visit_detail_concept_id,41,vocabularies,C0042926,['T170'],['Intellectual Product'],vocabulary,vocabulary,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,visit_detail-visit_detail_type_concept_id,38,vocabularies,C0042926,['T170'],['Intellectual Product'],vocabularies,vocabulary,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,visit_detail-visit_detail_type_concept_id,47,vocabularies,C0042926,['T170'],['Intellectual Product'],vocabulary,vocabulary,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,visit_detail-admitted_from_concept_id,38,vocabularies,C0042926,['T170'],['Intellectual Product'],vocabulary,vocabulary,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,visit_detail-discharge_to_source_value,36,Discharge disposition:Type:Pt:^Patient:Nom,C4019243,['T201'],['Clinical Attribute'],discharge disposition,discharge~disposition,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,visit_detail-discharge_to_concept_id,38,vocabularies,C0042926,['T170'],['Intellectual Product'],vocabulary,vocabulary,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,visit_detail-discharge_to_concept_id,40,Discharge disposition:Type:Pt:^Patient:Nom,C4019243,['T201'],['Clinical Attribute'],discharge disposition,discharge~disposition,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,specimen-specimen_concept_id,16,vocabularies,C0042926,['T170'],['Intellectual Product'],vocabularies,vocabulary,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,specimen-specimen_type_concept_id,15,vocabularies,C0042926,['T170'],['Intellectual Product'],vocabularies,vocabulary,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,specimen-specimen_source_value,19,vocabularies,C0042926,['T170'],['Intellectual Product'],vocabularies,vocabulary,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,measurement-measurement_id,28,Vital signs,C0518766,['T201'],['Clinical Attribute'],vital signs,vital~sign,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,measurement-measurement_id,33,Histology Report,C0807321,['T170'],['Intellectual Product'],pathology reports,pathology~report,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,measurement-person_id,28,Vital signs,C0518766,['T201'],['Clinical Attribute'],vital signs,vital~sign,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,measurement-person_id,33,Histology Report,C0807321,['T170'],['Intellectual Product'],pathology reports,pathology~report,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,measurement-person_id,43,C1698647,C1698647,['unk'],[''],demographic details,demographic~detail,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,measurement-measurement_concept_id,28,Vital signs,C0518766,['T201'],['Clinical Attribute'],vital signs,vital~sign,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,measurement-measurement_concept_id,33,Histology Report,C0807321,['T170'],['Intellectual Product'],pathology reports,pathology~report,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,measurement-measurement_concept_id,43,vocabularies,C0042926,['T170'],['Intellectual Product'],vocabularies,vocabulary,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,measurement-measurement_date,28,Vital signs,C0518766,['T201'],['Clinical Attribute'],vital signs,vital~sign,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,measurement-measurement_date,33,Histology Report,C0807321,['T170'],['Intellectual Product'],pathology reports,pathology~report,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,measurement-measurement_datetime,28,Vital signs,C0518766,['T201'],['Clinical Attribute'],vital signs,vital~sign,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,measurement-measurement_datetime,33,Histology Report,C0807321,['T170'],['Intellectual Product'],pathology reports,pathology~report,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,measurement-measurement_time,28,Vital signs,C0518766,['T201'],['Clinical Attribute'],vital signs,vital~sign,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,measurement-measurement_time,33,Histology Report,C0807321,['T170'],['Intellectual Product'],pathology reports,pathology~report,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,measurement-measurement_type_concept_id,28,Vital signs,C0518766,['T201'],['Clinical Attribute'],vital signs,vital~sign,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,measurement-measurement_type_concept_id,33,Histology Report,C0807321,['T170'],['Intellectual Product'],pathology reports,pathology~report,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,measurement-measurement_type_concept_id,40,vocabularies,C0042926,['T170'],['Intellectual Product'],vocabularies,vocabulary,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,measurement-measurement_type_concept_id,46,vocabularies,C0042926,['T170'],['Intellectual Product'],vocabulary,vocabulary,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,measurement-operator_concept_id,28,Vital signs,C0518766,['T201'],['Clinical Attribute'],vital signs,vital~sign,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,measurement-operator_concept_id,33,Histology Report,C0807321,['T170'],['Intellectual Product'],pathology reports,pathology~report,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,measurement-operator_concept_id,41,vocabularies,C0042926,['T170'],['Intellectual Product'],vocabularies,vocabulary,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,measurement-value_as_number,28,Vital signs,C0518766,['T201'],['Clinical Attribute'],vital signs,vital~sign,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,measurement-value_as_number,33,Histology Report,C0807321,['T170'],['Intellectual Product'],pathology reports,pathology~report,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,measurement-value_as_concept_id,28,Vital signs,C0518766,['T201'],['Clinical Attribute'],vital signs,vital~sign,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,measurement-value_as_concept_id,33,Histology Report,C0807321,['T170'],['Intellectual Product'],pathology reports,pathology~report,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,measurement-value_as_concept_id,43,vocabularies,C0042926,['T170'],['Intellectual Product'],vocabularies,vocabulary,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,measurement-unit_concept_id,28,Vital signs,C0518766,['T201'],['Clinical Attribute'],vital signs,vital~sign,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,measurement-unit_concept_id,33,Histology Report,C0807321,['T170'],['Intellectual Product'],pathology reports,pathology~report,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,measurement-unit_concept_id,43,vocabularies,C0042926,['T170'],['Intellectual Product'],vocabularies,vocabulary,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,measurement-range_low,28,Vital signs,C0518766,['T201'],['Clinical Attribute'],vital signs,vital~sign,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,measurement-range_low,33,Histology Report,C0807321,['T170'],['Intellectual Product'],pathology reports,pathology~report,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,measurement-range_high,28,Vital signs,C0518766,['T201'],['Clinical Attribute'],vital signs,vital~sign,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,measurement-range_high,33,Histology Report,C0807321,['T170'],['Intellectual Product'],pathology reports,pathology~report,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,measurement-provider_id,28,Vital signs,C0518766,['T201'],['Clinical Attribute'],vital signs,vital~sign,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,measurement-provider_id,33,Histology Report,C0807321,['T170'],['Intellectual Product'],pathology reports,pathology~report,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,measurement-visit_occurrence_id,28,Vital signs,C0518766,['T201'],['Clinical Attribute'],vital signs,vital~sign,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,measurement-visit_occurrence_id,33,Histology Report,C0807321,['T170'],['Intellectual Product'],pathology reports,pathology~report,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,measurement-visit_detail_id,28,Vital signs,C0518766,['T201'],['Clinical Attribute'],vital signs,vital~sign,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,measurement-visit_detail_id,33,Histology Report,C0807321,['T170'],['Intellectual Product'],pathology reports,pathology~report,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,measurement-measurement_source_value,28,Vital signs,C0518766,['T201'],['Clinical Attribute'],vital signs,vital~sign,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,measurement-measurement_source_value,33,Histology Report,C0807321,['T170'],['Intellectual Product'],pathology reports,pathology~report,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,measurement-measurement_source_value,45,vocabularies,C0042926,['T170'],['Intellectual Product'],vocabularies,vocabulary,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,measurement-measurement_source_concept_id,28,Vital signs,C0518766,['T201'],['Clinical Attribute'],vital signs,vital~sign,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,measurement-measurement_source_concept_id,33,Histology Report,C0807321,['T170'],['Intellectual Product'],pathology reports,pathology~report,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,measurement-measurement_source_concept_id,40,vocabularies,C0042926,['T170'],['Intellectual Product'],vocabularies,vocabulary,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,measurement-unit_source_value,28,Vital signs,C0518766,['T201'],['Clinical Attribute'],vital signs,vital~sign,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,measurement-unit_source_value,33,Histology Report,C0807321,['T170'],['Intellectual Product'],pathology reports,pathology~report,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,measurement-unit_source_value,48,vocabularies,C0042926,['T170'],['Intellectual Product'],vocabularies,vocabulary,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,measurement-value_source_value,28,Vital signs,C0518766,['T201'],['Clinical Attribute'],vital signs,vital~sign,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,measurement-value_source_value,33,Histology Report,C0807321,['T170'],['Intellectual Product'],pathology reports,pathology~report,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,procedure_occurrence-person_id,37,C1698647,C1698647,['unk'],[''],demographic details,demographic~detail,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,procedure_occurrence-procedure_concept_id,38,vocabularies,C0042926,['T170'],['Intellectual Product'],vocabularies,vocabulary,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,procedure_occurrence-procedure_type_concept_id,35,vocabularies,C0042926,['T170'],['Intellectual Product'],vocabularies,vocabulary,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,procedure_occurrence-procedure_type_concept_id,45,vocabularies,C0042926,['T170'],['Intellectual Product'],vocabulary,vocabulary,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,procedure_occurrence-modifier_concept_id,46,vocabularies,C0042926,['T170'],['Intellectual Product'],vocabulary,vocabulary,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,procedure_occurrence-procedure_source_value,43,vocabularies,C0042926,['T170'],['Intellectual Product'],vocabularies,vocabulary,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,procedure_occurrence-procedure_source_value,55,Oropharyngeal Carcinoma,C2349952,['T191'],['Neoplastic Process'],opcs,opcs,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,condition_occurrence-person_id,33,C1698647,C1698647,['unk'],[''],demographic details,demographic~detail,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,condition_occurrence-condition_concept_id,32,vocabularies,C0042926,['T170'],['Intellectual Product'],vocabularies,vocabulary,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,condition_occurrence-condition_type_concept_id,31,vocabularies,C0042926,['T170'],['Intellectual Product'],vocabularies,vocabulary,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,condition_occurrence-condition_type_concept_id,43,vocabularies,C0042926,['T170'],['Intellectual Product'],vocabulary,vocabulary,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,condition_occurrence-condition_status_concept_id,32,vocabularies,C0042926,['T170'],['Intellectual Product'],vocabularies,vocabulary,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,condition_occurrence-condition_source_value,38,vocabularies,C0042926,['T170'],['Intellectual Product'],vocabularies,vocabulary,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,condition_occurrence-condition_status_source_value,38,vocabularies,C0042926,['T170'],['Intellectual Product'],vocabularies,vocabulary,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,death-person_id,1,Death Domain,C1511738,['T087'],['Amino Acid Sequence'],death domain,death~domain,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,death-person_id,5,Clinical Event Pattern,C3831076,['T078'],['Idea or Concept'],clinical event,clinical~event,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,death-person_id,21,C1698647,C1698647,['unk'],[''],demographic details,demographic~detail,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,death-death_date,1,Death Domain,C1511738,['T087'],['Amino Acid Sequence'],death domain,death~domain,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,death-death_date,5,Clinical Event Pattern,C3831076,['T078'],['Idea or Concept'],clinical event,clinical~event,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,death-death_datetime,1,Death Domain,C1511738,['T087'],['Amino Acid Sequence'],death domain,death~domain,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,death-death_datetime,5,Clinical Event Pattern,C3831076,['T078'],['Idea or Concept'],clinical event,clinical~event,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,death-death_type_concept_id,1,Death Domain,C1511738,['T087'],['Amino Acid Sequence'],death domain,death~domain,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,death-death_type_concept_id,5,Clinical Event Pattern,C3831076,['T078'],['Idea or Concept'],clinical event,clinical~event,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,death-death_type_concept_id,21,vocabularies,C0042926,['T170'],['Intellectual Product'],vocabularies,vocabulary,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,death-cause_concept_id,1,Death Domain,C1511738,['T087'],['Amino Acid Sequence'],death domain,death~domain,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,death-cause_concept_id,5,Clinical Event Pattern,C3831076,['T078'],['Idea or Concept'],clinical event,clinical~event,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,death-cause_concept_id,22,vocabularies,C0042926,['T170'],['Intellectual Product'],vocabularies,vocabulary,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,death-cause_source_value,1,Death Domain,C1511738,['T087'],['Amino Acid Sequence'],death domain,death~domain,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,death-cause_source_value,5,Clinical Event Pattern,C3831076,['T078'],['Idea or Concept'],clinical event,clinical~event,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,death-cause_source_value,28,vocabularies,C0042926,['T170'],['Intellectual Product'],vocabularies,vocabulary,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,death-cause_source_concept_id,1,Death Domain,C1511738,['T087'],['Amino Acid Sequence'],death domain,death~domain,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,death-cause_source_concept_id,5,Clinical Event Pattern,C3831076,['T078'],['Idea or Concept'],clinical event,clinical~event,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,location-location_id,16,Geographic Locations,C0017446,['T083'],['Geographic Area'],geographic location,geographic~location,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,location-location_source_value,13,Verbatim,C1710631,['T080'],['Qualitative Concept'],verbatim,verbatim,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,observation-person_id,31,C1698647,C1698647,['unk'],[''],demographic details,demographic~detail,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,observation-observation_concept_id,31,vocabularies,C0042926,['T170'],['Intellectual Product'],vocabularies,vocabulary,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,observation-observation_type_concept_id,29,vocabularies,C0042926,['T170'],['Intellectual Product'],vocabularies,vocabulary,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,observation-value_as_string,32,Verbatim,C1710631,['T080'],['Qualitative Concept'],verbatim,verbatim,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,observation-value_as_concept_id,37,vocabularies,C0042926,['T170'],['Intellectual Product'],vocabularies,vocabulary,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,observation-unit_concept_id,31,vocabularies,C0042926,['T170'],['Intellectual Product'],vocabularies,vocabulary,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,observation-observation_source_value,34,vocabularies,C0042926,['T170'],['Intellectual Product'],vocabularies,vocabulary,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,observation-unit_source_value,36,vocabularies,C0042926,['T170'],['Intellectual Product'],vocabularies,vocabulary,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,observation-obs_event_field_concept_id,30,vocabularies,C0042926,['T170'],['Intellectual Product'],vocabularies,vocabulary,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,observation_period-observation_period_id,12,Clinical Event Pattern,C3831076,['T078'],['Idea or Concept'],clinical events,clinical~event,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,observation_period-person_id,12,Clinical Event Pattern,C3831076,['T078'],['Idea or Concept'],clinical events,clinical~event,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,observation_period-person_id,32,C1698647,C1698647,['unk'],[''],demographic details,demographic~detail,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,observation_period-observation_period_start_date,12,Clinical Event Pattern,C3831076,['T078'],['Idea or Concept'],clinical events,clinical~event,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,observation_period-observation_period_end_date,12,Clinical Event Pattern,C3831076,['T078'],['Idea or Concept'],clinical events,clinical~event,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,observation_period-period_type_concept_id,12,Clinical Event Pattern,C3831076,['T078'],['Idea or Concept'],clinical events,clinical~event,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,observation_period-period_type_concept_id,29,vocabularies,C0042926,['T170'],['Intellectual Product'],vocabularies,vocabulary,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,drug_exposure-drug_exposure_id,19,C1254359,C1254359,['unk'],[''],physiological effect,physiological~effect,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,drug_exposure-drug_exposure_id,29,Biological treatment,C1531518,['T061'],['Therapeutic or Preventive Procedure'],biologic therapies,biologic~therapy,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,drug_exposure-person_id,19,C1254359,C1254359,['unk'],[''],physiological effect,physiological~effect,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,drug_exposure-person_id,29,Biological treatment,C1531518,['T061'],['Therapeutic or Preventive Procedure'],biologic therapies,biologic~therapy,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,drug_exposure-person_id,46,C1698647,C1698647,['unk'],[''],demographic details,demographic~detail,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,drug_exposure-drug_concept_id,19,C1254359,C1254359,['unk'],[''],physiological effect,physiological~effect,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,drug_exposure-drug_concept_id,29,Biological treatment,C1531518,['T061'],['Therapeutic or Preventive Procedure'],biologic therapies,biologic~therapy,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,drug_exposure-drug_concept_id,45,vocabularies,C0042926,['T170'],['Intellectual Product'],vocabularies,vocabulary,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,drug_exposure-drug_exposure_start_date,19,C1254359,C1254359,['unk'],[''],physiological effect,physiological~effect,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,drug_exposure-drug_exposure_start_date,29,Biological treatment,C1531518,['T061'],['Therapeutic or Preventive Procedure'],biologic therapies,biologic~therapy,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,drug_exposure-drug_exposure_start_datetime,19,C1254359,C1254359,['unk'],[''],physiological effect,physiological~effect,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,drug_exposure-drug_exposure_start_datetime,29,Biological treatment,C1531518,['T061'],['Therapeutic or Preventive Procedure'],biologic therapies,biologic~therapy,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,drug_exposure-drug_exposure_end_date,19,C1254359,C1254359,['unk'],[''],physiological effect,physiological~effect,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,drug_exposure-drug_exposure_end_date,29,Biological treatment,C1531518,['T061'],['Therapeutic or Preventive Procedure'],biologic therapies,biologic~therapy,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,drug_exposure-drug_exposure_end_datetime,19,C1254359,C1254359,['unk'],[''],physiological effect,physiological~effect,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,drug_exposure-drug_exposure_end_datetime,29,Biological treatment,C1531518,['T061'],['Therapeutic or Preventive Procedure'],biologic therapies,biologic~therapy,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,drug_exposure-verbatim_end_date,19,C1254359,C1254359,['unk'],[''],physiological effect,physiological~effect,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,drug_exposure-verbatim_end_date,29,Biological treatment,C1531518,['T061'],['Therapeutic or Preventive Procedure'],biologic therapies,biologic~therapy,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,drug_exposure-drug_type_concept_id,19,C1254359,C1254359,['unk'],[''],physiological effect,physiological~effect,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,drug_exposure-drug_type_concept_id,29,Biological treatment,C1531518,['T061'],['Therapeutic or Preventive Procedure'],biologic therapies,biologic~therapy,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,drug_exposure-drug_type_concept_id,44,vocabularies,C0042926,['T170'],['Intellectual Product'],vocabularies,vocabulary,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,drug_exposure-drug_type_concept_id,57,vocabularies,C0042926,['T170'],['Intellectual Product'],vocabulary,vocabulary,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,drug_exposure-stop_reason,19,C1254359,C1254359,['unk'],[''],physiological effect,physiological~effect,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,drug_exposure-stop_reason,29,Biological treatment,C1531518,['T061'],['Therapeutic or Preventive Procedure'],biologic therapies,biologic~therapy,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,drug_exposure-refills,19,C1254359,C1254359,['unk'],[''],physiological effect,physiological~effect,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,drug_exposure-refills,29,Biological treatment,C1531518,['T061'],['Therapeutic or Preventive Procedure'],biologic therapies,biologic~therapy,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,drug_exposure-quantity,19,C1254359,C1254359,['unk'],[''],physiological effect,physiological~effect,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,drug_exposure-quantity,29,Biological treatment,C1531518,['T061'],['Therapeutic or Preventive Procedure'],biologic therapies,biologic~therapy,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,drug_exposure-days_supply,19,C1254359,C1254359,['unk'],[''],physiological effect,physiological~effect,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,drug_exposure-days_supply,29,Biological treatment,C1531518,['T061'],['Therapeutic or Preventive Procedure'],biologic therapies,biologic~therapy,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,drug_exposure-sig,19,C1254359,C1254359,['unk'],[''],physiological effect,physiological~effect,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,drug_exposure-sig,29,Biological treatment,C1531518,['T061'],['Therapeutic or Preventive Procedure'],biologic therapies,biologic~therapy,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,drug_exposure-sig,41,Drug Prescriptions,C0033081,['T170'],['Intellectual Product'],drug prescription,drug~prescription,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,drug_exposure-route_concept_id,19,C1254359,C1254359,['unk'],[''],physiological effect,physiological~effect,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,drug_exposure-route_concept_id,29,Biological treatment,C1531518,['T061'],['Therapeutic or Preventive Procedure'],biologic therapies,biologic~therapy,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,drug_exposure-route_concept_id,45,vocabularies,C0042926,['T170'],['Intellectual Product'],vocabularies,vocabulary,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,drug_exposure-route_concept_id,47,Drug Administration Routes,C0013153,['T169'],['Functional Concept'],route of administration,route~of~administration,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,drug_exposure-lot_number,19,C1254359,C1254359,['unk'],[''],physiological effect,physiological~effect,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,drug_exposure-lot_number,29,Biological treatment,C1531518,['T061'],['Therapeutic or Preventive Procedure'],biologic therapies,biologic~therapy,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,drug_exposure-provider_id,19,C1254359,C1254359,['unk'],[''],physiological effect,physiological~effect,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,drug_exposure-provider_id,29,Biological treatment,C1531518,['T061'],['Therapeutic or Preventive Procedure'],biologic therapies,biologic~therapy,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,drug_exposure-visit_occurrence_id,19,C1254359,C1254359,['unk'],[''],physiological effect,physiological~effect,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,drug_exposure-visit_occurrence_id,29,Biological treatment,C1531518,['T061'],['Therapeutic or Preventive Procedure'],biologic therapies,biologic~therapy,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,drug_exposure-visit_detail_id,19,C1254359,C1254359,['unk'],[''],physiological effect,physiological~effect,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,drug_exposure-visit_detail_id,29,Biological treatment,C1531518,['T061'],['Therapeutic or Preventive Procedure'],biologic therapies,biologic~therapy,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,drug_exposure-drug_source_value,19,C1254359,C1254359,['unk'],[''],physiological effect,physiological~effect,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,drug_exposure-drug_source_value,29,Biological treatment,C1531518,['T061'],['Therapeutic or Preventive Procedure'],biologic therapies,biologic~therapy,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,drug_exposure-drug_source_value,52,vocabularies,C0042926,['T170'],['Intellectual Product'],vocabularies,vocabulary,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,drug_exposure-drug_source_concept_id,19,C1254359,C1254359,['unk'],[''],physiological effect,physiological~effect,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,drug_exposure-drug_source_concept_id,29,Biological treatment,C1531518,['T061'],['Therapeutic or Preventive Procedure'],biologic therapies,biologic~therapy,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,drug_exposure-route_source_value,19,C1254359,C1254359,['unk'],[''],physiological effect,physiological~effect,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,drug_exposure-route_source_value,29,Biological treatment,C1531518,['T061'],['Therapeutic or Preventive Procedure'],biologic therapies,biologic~therapy,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,drug_exposure-route_source_value,41,Drug Administration Routes,C0013153,['T169'],['Functional Concept'],route of administration,route~of~administration,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,drug_exposure-dose_unit_source_value,19,C1254359,C1254359,['unk'],[''],physiological effect,physiological~effect,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,drug_exposure-dose_unit_source_value,29,Biological treatment,C1531518,['T061'],['Therapeutic or Preventive Procedure'],biologic therapies,biologic~therapy,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,device_exposure-person_id,27,C1698647,C1698647,['unk'],[''],demographic details,demographic~detail,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,device_exposure-device_concept_id,26,vocabularies,C0042926,['T170'],['Intellectual Product'],vocabularies,vocabulary,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,device_exposure-device_type_concept_id,25,vocabularies,C0042926,['T170'],['Intellectual Product'],vocabularies,vocabulary,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,device_exposure-device_source_value,32,vocabularies,C0042926,['T170'],['Intellectual Product'],vocabularies,vocabulary,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,note-person_id,20,C1698647,C1698647,['unk'],[''],demographic details,demographic~detail,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,note-note_event_id,18,Measurement,C0242485,['T169'],['Functional Concept'],"measurement, procedure",measurement~procedure,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,note-note_event_field_concept_id,17,vocabularies,C0042926,['T170'],['Intellectual Product'],vocabularies,vocabulary,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,note-note_type_concept_id,17,vocabularies,C0042926,['T170'],['Intellectual Product'],vocabularies,vocabulary,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,note-note_type_concept_id,24,vocabularies,C0042926,['T170'],['Intellectual Product'],vocabulary,vocabulary,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,note-note_class_concept_id,17,vocabularies,C0042926,['T170'],['Intellectual Product'],vocabularies,vocabulary,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,note-note_class_concept_id,20,vocabularies,C0042926,['T170'],['Intellectual Product'],vocabulary,vocabulary,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,note-encoding_concept_id,17,vocabularies,C0042926,['T170'],['Intellectual Product'],vocabularies,vocabulary,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,note-language_concept_id,17,vocabularies,C0042926,['T170'],['Intellectual Product'],vocabularies,vocabulary,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,fact_relationship-relationship_concept_id,16,vocabularies,C0042926,['T170'],['Intellectual Product'],vocabularies,vocabulary,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,payer_plan_period-person_id,27,C1698647,C1698647,['unk'],[''],demographic details,demographic~detail,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,payer_plan_period-plan_source_value,25,"Benefit, Health",C0086387,['T081'],['Quantitative Concept'],health benefit,health~benefit,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,cdm_source-vocabulary_version,14,vocabularies,C0042926,['T170'],['Intellectual Product'],vocabulary,vocabulary,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,care_site-care_site_name,18,Verbatim,C1710631,['T080'],['Qualitative Concept'],verbatim,verbatim,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,care_site-place_of_service_concept_id,24,vocabularies,C0042926,['T170'],['Intellectual Product'],vocabularies,vocabulary,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,care_site-location_id,21,Geographic Locations,C0017446,['T083'],['Geographic Area'],geographic location,geographic~location,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,provider-npi,22,Breast Cancer Diagnostic Procedure,C2698560,['T060'],['Diagnostic Procedure'],npi,npi,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,OMOP,provider-specialty_concept_id,25,vocabularies,C0042926,['T170'],['Intellectual Product'],vocabularies,vocabulary,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,Synthea,encounters-reasoncode,9,Condition,C0348080,['T080'],['Qualitative Concept'],specific condition,specific~condition,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,Synthea,imaging_studies-id,2,metadata,C1708992,['T170'],['Intellectual Product'],metadata,metadata,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,Synthea,imaging_studies-date,2,metadata,C1708992,['T170'],['Intellectual Product'],metadata,metadata,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,Synthea,imaging_studies-patient,2,metadata,C1708992,['T170'],['Intellectual Product'],metadata,metadata,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,Synthea,imaging_studies-encounter,2,metadata,C1708992,['T170'],['Intellectual Product'],metadata,metadata,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,Synthea,imaging_studies-body site code,2,metadata,C1708992,['T170'],['Intellectual Product'],metadata,metadata,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,Synthea,imaging_studies-body site code,4,Human body structure,C0460148,['T017'],['Anatomical Structure'],body structures,body~structure,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,Synthea,imaging_studies-body site code,9,Body part,C0229962,['T023'],"['Body Part, Organ, or Organ Component']",part of the body,part~of~the~body,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,Synthea,imaging_studies-body site description,2,metadata,C1708992,['T170'],['Intellectual Product'],metadata,metadata,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,Synthea,imaging_studies-body site description,5,Body site,C1545955,['T029'],['Body Location or Region'],body site,body~site,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,Synthea,imaging_studies-modality code,2,metadata,C1708992,['T170'],['Intellectual Product'],metadata,metadata,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,Synthea,imaging_studies-modality code,3,C3256315,C3256315,['unk'],[''],dcm,dcm,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,Synthea,imaging_studies-modality description,2,metadata,C1708992,['T170'],['Intellectual Product'],metadata,metadata,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,Synthea,imaging_studies-sop code,2,metadata,C1708992,['T170'],['Intellectual Product'],metadata,metadata,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,Synthea,imaging_studies-sop description,2,metadata,C1708992,['T170'],['Intellectual Product'],metadata,metadata,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,Synthea,observations-date,4,Vital signs,C0518766,['T201'],['Clinical Attribute'],vital signs,vital~sign,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,Synthea,observations-patient,4,Vital signs,C0518766,['T201'],['Clinical Attribute'],vital signs,vital~sign,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,Synthea,observations-encounter,4,Vital signs,C0518766,['T201'],['Clinical Attribute'],vital signs,vital~sign,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,Synthea,observations-code,4,Vital signs,C0518766,['T201'],['Clinical Attribute'],vital signs,vital~sign,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,Synthea,observations-description,4,Vital signs,C0518766,['T201'],['Clinical Attribute'],vital signs,vital~sign,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,Synthea,observations-value,4,Vital signs,C0518766,['T201'],['Clinical Attribute'],vital signs,vital~sign,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,Synthea,observations-units,4,Vital signs,C0518766,['T201'],['Clinical Attribute'],vital signs,vital~sign,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,Synthea,observations-type,4,Vital signs,C0518766,['T201'],['Clinical Attribute'],vital signs,vital~sign,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,Synthea,patients-birthplace,5,C1555315,C1555315,['unk'],[''],town,town,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,Synthea,patients-zip,7,Zip Code,C1521842,['T170'],['Intellectual Product'],zip code,zip~code,1.0,1.0
+Medcat_UMLS_Df_CS_1_ANC,UMLS,Synthea,procedures-code,6,code cpt,C1136322,['T170'],['Intellectual Product'],procedure code,procedure~code,1.0,1.0
