@@ -1,0 +1,44 @@
+TipoDiAnnotazione,Ontologies,Source,AttributoNomeCompleto,entity_id,pretty_name,cui
+MedicalGS,UMLS,OMOP,location-location,1,Location,C0450429
+MedicalGS,SNOMED-CT,OMOP,location-location,1,Location,246267002
+MedicalGS,UMLS,OMOP,location-location,2,Address,C1442065
+MedicalGS,SNOMED-CT,OMOP,location-location,2,Address,397635003
+MedicalGS,UMLS,OMOP,location-location,3,Patient information,C1955348
+MedicalGS,UMLS,OMOP,location-location,4,Site of care,C0337950
+MedicalGS,SNOMED-CT,OMOP,location-location,3,Site of care,43741000
+MedicalGS,UMLS,OMOP,location-location_id,1,Location,C0450429
+MedicalGS,SNOMED-CT,OMOP,location-location_id,1,Location,246267002
+MedicalGS,UMLS,OMOP,location-location_id,2,Identification number,C1300638
+MedicalGS,SNOMED-CT,OMOP,location-location_id,2,Identification number,396278008
+MedicalGS,UMLS,OMOP,location-address,1,Address,C1442065
+MedicalGS,SNOMED-CT,OMOP,location-address,1,Address,397635003
+MedicalGS,UMLS,OMOP,location-city,1,City,C0008848
+MedicalGS,UMLS,OMOP,location-city,2,Address,C1442065
+MedicalGS,SNOMED-CT,OMOP,location-city,1,Address,397635003
+MedicalGS,UMLS,OMOP,location-state,1,Geographic state,C1301808
+MedicalGS,SNOMED-CT,OMOP,location-state,1,Geographic state,398070004
+MedicalGS,UMLS,OMOP,location-state,2,Address,C1442065
+MedicalGS,SNOMED-CT,OMOP,location-state,2,Address,397635003
+MedicalGS,UMLS,OMOP,location-zip,1,Zip code,C1521842
+MedicalGS,UMLS,OMOP,location-zip,2,Address,C1442065
+MedicalGS,SNOMED-CT,OMOP,location-zip,1,Address,397635003
+MedicalGS,UMLS,OMOP,location-zip,3,Postal code,C1514254
+MedicalGS,UMLS,OMOP,location-zip,4,Address,C1442065
+MedicalGS,SNOMED-CT,OMOP,location-zip,2,Address,397635003
+MedicalGS,UMLS,OMOP,location-county,1,County,C0079170
+MedicalGS,UMLS,OMOP,location-county,2,Address,C1442065
+MedicalGS,SNOMED-CT,OMOP,location-county,1,Address,397635003
+MedicalGS,UMLS,OMOP,location-country,1,Country,C0454664
+MedicalGS,SNOMED-CT,OMOP,location-country,1,Country,223369002
+MedicalGS,UMLS,OMOP,location-country,2,Address,C1442065
+MedicalGS,SNOMED-CT,OMOP,location-country,2,Address,397635003
+MedicalGS,UMLS,OMOP,location-location_source-value,1,Location,C0450429
+MedicalGS,SNOMED-CT,OMOP,location-location_source-value,1,Location,246267002
+MedicalGS,UMLS,OMOP,location-location_source-value,2,Source,C0449416
+MedicalGS,SNOMED-CT,OMOP,location-location_source-value,2,Source,260753009
+MedicalGS,UMLS,OMOP,location-latitude,1,Latitude,C1627936
+MedicalGS,UMLS,OMOP,location-latitude,2,Address,C1442065
+MedicalGS,SNOMED-CT,OMOP,location-latitude,1,Address,397635003
+MedicalGS,UMLS,OMOP,location-longitude,1,Longitude,C1657623
+MedicalGS,UMLS,OMOP,location-longitude,2,Address,C1442065
+MedicalGS,SNOMED-CT,OMOP,location-longitude,1,Address,397635003
