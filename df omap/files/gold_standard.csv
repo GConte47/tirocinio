@@ -1,0 +1,150 @@
+TipoDiAnnotazione,Ontologies,Source,AttributoNomeCompleto,entity_id,pretty_name,cui
+MedicalGS,UMLS,OMOP,location-location,1,Location,C0450429
+MedicalGS,SNOMED-CT,OMOP,location-location,1,Location,246267002
+MedicalGS,UMLS,OMOP,location-location,2,Address,C1442065
+MedicalGS,SNOMED-CT,OMOP,location-location,2,Address,397635003
+MedicalGS,UMLS,OMOP,location-location,3,Patient information,C1955348
+MedicalGS,UMLS,OMOP,location-location,4,Site of care,C0337950
+MedicalGS,SNOMED-CT,OMOP,location-location,3,Site of care,43741000
+MedicalGS,UMLS,OMOP,location-location_id,1,Location,C0450429
+MedicalGS,SNOMED-CT,OMOP,location-location_id,1,Location,246267002
+MedicalGS,UMLS,OMOP,location-location_id,2,Identification number,C1300638
+MedicalGS,SNOMED-CT,OMOP,location-location_id,2,Identification number,396278008
+MedicalGS,UMLS,OMOP,location-address,1,Address,C1442065
+MedicalGS,SNOMED-CT,OMOP,location-address,1,Address,397635003
+MedicalGS,UMLS,OMOP,location-city,1,City,C0008848
+MedicalGS,UMLS,OMOP,location-city,2,Address,C1442065
+MedicalGS,SNOMED-CT,OMOP,location-city,1,Address,397635003
+MedicalGS,UMLS,OMOP,location-state,1,Geographic state,C1301808
+MedicalGS,SNOMED-CT,OMOP,location-state,1,Geographic state,398070004
+MedicalGS,UMLS,OMOP,location-state,2,Address,C1442065
+MedicalGS,SNOMED-CT,OMOP,location-state,2,Address,397635003
+MedicalGS,UMLS,OMOP,location-zip,1,Zip code,C1521842
+MedicalGS,UMLS,OMOP,location-zip,2,Address,C1442065
+MedicalGS,SNOMED-CT,OMOP,location-zip,1,Address,397635003
+MedicalGS,UMLS,OMOP,location-zip,3,Postal code,C1514254
+MedicalGS,UMLS,OMOP,location-zip,4,Address,C1442065
+MedicalGS,SNOMED-CT,OMOP,location-zip,2,Address,397635003
+MedicalGS,UMLS,OMOP,location-county,1,County,C0079170
+MedicalGS,UMLS,OMOP,location-county,2,Address,C1442065
+MedicalGS,SNOMED-CT,OMOP,location-county,1,Address,397635003
+MedicalGS,UMLS,OMOP,location-country,1,Country,C0454664
+MedicalGS,SNOMED-CT,OMOP,location-country,1,Country,223369002
+MedicalGS,UMLS,OMOP,location-country,2,Address,C1442065
+MedicalGS,SNOMED-CT,OMOP,location-country,2,Address,397635003
+MedicalGS,UMLS,OMOP,location-location_source-value,1,Location,C0450429
+MedicalGS,SNOMED-CT,OMOP,location-location_source-value,1,Location,246267002
+MedicalGS,UMLS,OMOP,location-location_source-value,2,Source,C0449416
+MedicalGS,SNOMED-CT,OMOP,location-location_source-value,2,Source,260753009
+MedicalGS,UMLS,OMOP,location-latitude,1,Latitude,C1627936
+MedicalGS,UMLS,OMOP,location-latitude,2,Address,C1442065
+MedicalGS,SNOMED-CT,OMOP,location-latitude,1,Address,397635003
+MedicalGS,UMLS,OMOP,location-longitude,1,Longitude,C1657623
+MedicalGS,UMLS,OMOP,location-longitude,2,Address,C1442065
+MedicalGS,SNOMED-CT,OMOP,location-longitude,1,Address,397635003
+MedicalGS,UMLS,OMOP,cost-cost,1,Cost aspect,C0220812
+MedicalGS,UMLS,OMOP,cost-payer_plan_period_id,1,Healthcare payer,C2348942
+MedicalGS,SNOMED-CT,OMOP,cost-payer_plan_period_id,1,Healthcare payer,4001000175104
+MedicalGS,UMLS,OMOP,cost-payer_plan_period_id,2,Planned,C1301732
+MedicalGS,SNOMED-CT,OMOP,cost-payer_plan_period_id,2,Planned,397943006
+MedicalGS,UMLS,OMOP,cost-payer_plan_period_id,3,Period (temporal qualifier),C1948053
+MedicalGS,SNOMED-CT,OMOP,cost-payer_plan_period_id,3,Planned,272117007
+MedicalGS,UMLS,OMOP,cost-payer_plan_period_id,4,Identification number,C1300638
+MedicalGS,SNOMED-CT,OMOP,cost-payer_plan_period_id,4,Identification number,396278008
+MedicalGS,UMLS,OMOP,cost-person_id,1,Clinical Trial Subject Unique Identifier,C2348585
+MedicalGS,UMLS,OMOP,cost-cost_id,1,Cost aspect,C0220812
+MedicalGS,UMLS,OMOP,cost-cost_id,2,Identification number,C1300638
+MedicalGS,SNOMED-CT,OMOP,cost-cost_id,1,Identification number,396278008
+MedicalGS,UMLS,OMOP,cost-cost_event_id,1,Cost aspect,C0220812
+MedicalGS,UMLS,OMOP,cost-cost_event_id,2,Event,C0441471
+MedicalGS,SNOMED-CT,OMOP,cost-cost_event_id,1,Event,272379006
+MedicalGS,UMLS,OMOP,cost-cost_event_id,3,Identification number,C1300638
+MedicalGS,SNOMED-CT,OMOP,cost-cost_event_id,2,Identification number,396278008
+MedicalGS,UMLS,OMOP,cost-cost_event_field_concept_id,1,Cost aspect,C0220812
+MedicalGS,UMLS,OMOP,cost-cost_event_field_concept_id,2,Field,C1521738
+MedicalGS,UMLS,OMOP,cost-cost_event_id,3,concept,C0178566
+MedicalGS,UMLS,OMOP,cost-cost_event_field_concept_id,4,Identification number,C1300638
+MedicalGS,SNOMED-CT,OMOP,cost-cost_event_field_concept_id,1,Identification number,396278008
+MedicalGS,UMLS,OMOP,cost-cost_concept_id,1,Cost aspect,C0220812
+MedicalGS,UMLS,OMOP,cost-cost_concept_id,2,concept,C0178566
+MedicalGS,UMLS,OMOP,cost-cost_concept_id,3,Identification number,C1300638
+MedicalGS,SNOMED-CT,OMOP,cost-cost_concept_id,1,Identification number,396278008
+MedicalGS,UMLS,OMOP,cost-cost_type_concept_id,1,Cost aspect,C0220812
+MedicalGS,UMLS,OMOP,cost-cost_type_concept_id,2,Type - attribute,C0332307
+MedicalGS,SNOMED-CT,OMOP,cost-cost_type_concept_id,1,Type - attribute,261664005
+MedicalGS,UMLS,OMOP,cost-cost_type_concept_id,3,concept,C0178566
+MedicalGS,UMLS,OMOP,cost-cost_type_concept_id,4,Identification number,C1300638
+MedicalGS,SNOMED-CT,OMOP,cost-cost_type_concept_id,2,Identification number,396278008
+MedicalGS,UMLS,OMOP,cost-cost_source_concept_id,1,Cost aspect,C0220812
+MedicalGS,UMLS,OMOP,cost-cost_source_concept_id,2,Source,C0449416
+MedicalGS,SNOMED-CT,OMOP,cost-cost_source_concept_id,1,Source,260753009
+MedicalGS,UMLS,OMOP,cost-cost_source_concept_id,3,concept,C0178566
+MedicalGS,UMLS,OMOP,cost-cost_source_concept_id,4,Identification number,C1300638
+MedicalGS,SNOMED-CT,OMOP,cost-cost_source_concept_id,2,Identification number,396278008
+MedicalGS,UMLS,OMOP,cost-cost_source_value,1,Cost aspect,C0220812
+MedicalGS,UMLS,OMOP,cost-cost_source_value,2,Source,C0449416
+MedicalGS,SNOMED-CT,OMOP,cost-cost_source_value,1,Source,260753009
+MedicalGS,UMLS,OMOP,cost-cost_source_value,3,Code,C0805701
+MedicalGS,UMLS,OMOP,cost-currency_concept_id,1,Unit of currency,C0560341
+MedicalGS,SNOMED-CT,OMOP,cost-currency_concept_id,1,Unit of currency,282473001
+MedicalGS,UMLS,OMOP,cost-cost_source_concept_id,2,concept,C0178566
+MedicalGS,UMLS,OMOP,cost-currency_concept_id,3,Identification number,C1300638
+MedicalGS,SNOMED-CT,OMOP,cost-currency_concept_id,2,Identification number,396278008
+MedicalGS,UMLS,OMOP,cost-cost,1,Financial cost,C0010186
+MedicalGS,UMLS,OMOP,cost-incurred_date,1,Date in time,C0011008
+MedicalGS,SNOMED-CT,OMOP,cost-incurred_date,1,Date in time,410671006
+MedicalGS,UMLS,OMOP,cost-incurred_date,2,Medical service,C0199168
+MedicalGS,SNOMED-CT,OMOP,cost-incurred_date,2,Medical service,373655009
+MedicalGS,UMLS,OMOP,cost-incurred_date,3,Cost aspects,C0220812
+MedicalGS,UMLS,OMOP,cost-billed_date,1,Date in time,C0011008
+MedicalGS,SNOMED-CT,OMOP,cost-billed_date,1,Date in time,410671006
+MedicalGS,UMLS,OMOP,cost-billed_date,2,Invoice,C2981733
+MedicalGS,UMLS,OMOP,cost-paid_date,1,payment,C0680264
+MedicalGS,UMLS,OMOP,cost-paid_date,2,Medical service,C0199168
+MedicalGS,SNOMED-CT,OMOP,cost-paid_date,1,Medical service,373655009
+MedicalGS,UMLS,OMOP,cost-paid_date,3,Date in time,C0011008
+MedicalGS,SNOMED-CT,OMOP,cost-paid_date,2,Date in time,410671006
+MedicalGS,UMLS,OMOP,cost-revenue_code_concept_id,1,Revenue code,C1547834
+MedicalGS,UMLS,OMOP,cost-revenue_code_concept_id,2,concept,C0178566
+MedicalGS,UMLS,OMOP,cost-revenue_code_concept_id,3,Identification number,C1300638
+MedicalGS,SNOMED-CT,OMOP,cost-revenue_code_concept_id,1,Identification number,396278008
+MedicalGS,UMLS,OMOP,cost-DRG_concept_id,1,Diagnosis-Related Groups,C0011928
+MedicalGS,UMLS,OMOP,cost-DRG_concept_id,2,concept,C0178566
+MedicalGS,UMLS,OMOP,cost-DRG_concept_id,3,Identification number,C1300638
+MedicalGS,SNOMED-CT,OMOP,cost-DRG_concept_id,1,Identification number,396278008
+MedicalGS,UMLS,OMOP,cost-revenue_code_source_value,1,Revenue code,C1547834
+MedicalGS,UMLS,OMOP,cost-revenue_code_source_value,2,Source,C0449416
+MedicalGS,SNOMED-CT,OMOP,cost-revenue_code_source_value,1,Source,260753009
+MedicalGS,UMLS,OMOP,cost-revenue_code_source_value,3,Code,C0805701
+MedicalGS,UMLS,OMOP,cost-DRG_source_value,1,Diagnosis-Related Groups,C0011928
+MedicalGS,UMLS,OMOP,cost-DRG_source_value,2,Source,C0449416
+MedicalGS,SNOMED-CT,OMOP,cost-DRG_source_value,1,Source,260753009
+MedicalGS,UMLS,OMOP,cost-DRG_source_value,3,Code,C0805701
+MedicalGS,UMLS,OMOP,relationship-relationship,1,Relationships,C0439849
+MedicalGS,SNOMED-CT,OMOP,relationship-relationship,1,Relationships,263498003
+MedicalGS,UMLS,OMOP,relationship-relationship,2,Clinical information,C2708733
+MedicalGS,UMLS,OMOP,relationship-relationship,3,Patient Information,C1955348
+MedicalGS,UMLS,OMOP,relationship-relationship_id,1,Relationships,C0439849
+MedicalGS,SNOMED-CT,OMOP,relationship-relationship_id,1,Relationships,263498003
+MedicalGS,UMLS,OMOP,relationship-relationship_id,2,Identification number,C1300638
+MedicalGS,SNOMED-CT,OMOP,relationship-relationship_id,2,Identification number,396278008
+MedicalGS,UMLS,OMOP,relationship-relationship_name,1,Relationships,C0439849
+MedicalGS,SNOMED-CT,OMOP,relationship-relationship_name,1,Relationships,263498003
+MedicalGS,UMLS,OMOP,relationship-relationship_name,2,Name,C0027365
+MedicalGS,SNOMED-CT,OMOP,relationship-relationship_name,2,Name,703503000
+MedicalGS,UMLS,OMOP,relationship-is_the_relationship_hierarchical,1,Relationships,C0439849
+MedicalGS,SNOMED-CT,OMOP,relationship-is_the_relationship_hierarchical,1,Relationships,263498003
+MedicalGS,UMLS,OMOP,relationship-relationship_name,2,Hierarchy,C0699032
+MedicalGS,UMLS,OMOP,relationship-define_ancestry,1,Relationships,C0439849
+MedicalGS,SNOMED-CT,OMOP,relationship-define_ancestry,1,Relationships,263498003
+MedicalGS,UMLS,OMOP,relationship-define_ancestry,2,Ancestor,C0870134
+MedicalGS,UMLS,OMOP,relationship-reverse_relationship_id,1,Relationships,C0439849
+MedicalGS,SNOMED-CT,OMOP,relationship-reverse_relationship_id,1,Relationships,263498003
+MedicalGS,UMLS,OMOP,relationship-reverse_relationship_id,2,Reverse,C1555029
+MedicalGS,UMLS,OMOP,relationship-reverse_relationship_id,3,Identification number,C1300638
+MedicalGS,SNOMED-CT,OMOP,relationship-reverse_relationship_id,2,Identification number,396278008
+MedicalGS,UMLS,OMOP,relationship-reverse_concept_id,1,Relationships,C0439849
+MedicalGS,SNOMED-CT,OMOP,relationship-reverse_concept_id,1,Relationships,263498003
+MedicalGS,UMLS,OMOP,relationship-reverse_concept_id,2,concept,C0178566
+MedicalGS,UMLS,OMOP,relationship-reverse_concept_id,3,Identification number,C1300638
+MedicalGS,SNOMED-CT,OMOP,relationship-reverse_concept_id,2,Identification number,396278008
