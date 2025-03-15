@@ -148,3 +148,91 @@ MedicalGS,SNOMED-CT,OMOP,relationship-reverse_concept_id,1,Relationships,2634980
 MedicalGS,UMLS,OMOP,relationship-reverse_concept_id,2,concept,C0178566
 MedicalGS,UMLS,OMOP,relationship-reverse_concept_id,3,Identification number,C1300638
 MedicalGS,SNOMED-CT,OMOP,relationship-reverse_concept_id,2,Identification number,396278008
+MedicalGS,UMLS,OMOP,condition_occurrence-condition_occurrence,1,Disease,C0012634
+MedicalGS,SNOMED-CT,OMOP,condition_occurrence-condition_occurrence,1,Disease,64572001
+MedicalGS,UMLS,OMOP,condition_occurrence-condition_occurrence,2,Occurrence,C2745955
+MedicalGS,SNOMED-CT,OMOP,condition_occurrence-condition_occurrence,2,Occurrence,246454002
+MedicalGS,UMLS,OMOP,condition_occurrence-condition_occurrence_id,1,Disease,C0012634
+MedicalGS,SNOMED-CT,OMOP,condition_occurrence-condition_occurrence_id,1,Disease,64572001
+MedicalGS,UMLS,OMOP,condition_occurrence-condition_occurrence_id,2,Occurrence,C2745955
+MedicalGS,SNOMED-CT,OMOP,condition_occurrence-condition_occurrence_id,2,Occurrence,246454002
+MedicalGS,UMLS,OMOP,condition_occurrence-condition_occurrence_id,3,Identification number,C1300638
+MedicalGS,SNOMED-CT,OMOP,condition_occurrence-condition_occurrence_id,3,Identification number,396278008
+MedicalGS,UMLS,OMOP,condition_occurrence-person_id,1,Clinical Trial Subject Unique Identifier,C2348585
+MedicalGS,UMLS,OMOP,condition_occurrence-condition_concept_id,1,Disease,C0012634
+MedicalGS,SNOMED-CT,OMOP,condition_occurrence-condition_concept_id,1,Disease,64572001
+MedicalGS,UMLS,OMOP,condition_occurrence-condition_concept_id,2,concept,C0178566
+MedicalGS,UMLS,OMOP,condition_occurrence-condition_concept_id,3,Identification number,C1300638
+MedicalGS,SNOMED-CT,OMOP,condition_occurrence-condition_concept_id,2,Identification number,396278008
+MedicalGS,UMLS,OMOP,condition_occurrence-condition_start_date,1,Disease,C0012634
+MedicalGS,SNOMED-CT,OMOP,condition_occurrence-condition_start_date,1,Disease,64572001
+MedicalGS,UMLS,OMOP,condition_occurrence-condition_start_date,2,Date in time,C0011008
+MedicalGS,SNOMED-CT,OMOP,condition_occurrence-condition_start_date,2,Date in time,410671006
+MedicalGS,UMLS,OMOP,condition_occurrence-condition_start_datetime,1,Disease,C0012634
+MedicalGS,SNOMED-CT,OMOP,condition_occurrence-condition_start_datetime,1,Disease,64572001
+MedicalGS,UMLS,OMOP,condition_occurrence-condition_start_datetime,2,Date in time,C0011008
+MedicalGS,SNOMED-CT,OMOP,condition_occurrence-condition_start_datetime,2,Date in time,410671006
+MedicalGS,UMLS,OMOP,condition_occurrence-condition_start_datetime,3,Start time,C1301880
+MedicalGS,SNOMED-CT,OMOP,condition_occurrence-condition_start_datetime,3,Start time,398201009
+MedicalGS,UMLS,OMOP,condition_occurrence-condition_end_date,1,Disease,C0012634
+MedicalGS,SNOMED-CT,OMOP,condition_occurrence-condition_end_date,1,Disease,64572001
+MedicalGS,UMLS,OMOP,condition_occurrence-condition_end_date,2,Date in time,C0011008
+MedicalGS,SNOMED-CT,OMOP,condition_occurrence-condition_end_date,2,Date in time,410671006
+MedicalGS,UMLS,OMOP,condition_occurrence-condition_end_datetime,1,Disease,C0012634
+MedicalGS,SNOMED-CT,OMOP,condition_occurrence-condition_end_datetime,1,Disease,64572001
+MedicalGS,UMLS,OMOP,condition_occurrence-condition_end_datetime,2,Date in time,C0011008
+MedicalGS,SNOMED-CT,OMOP,condition_occurrence-condition_end_datetime,2,Date in time,410671006
+MedicalGS,UMLS,OMOP,condition_occurrence-condition_end_datetime,3,End time,C1522314
+MedicalGS,SNOMED-CT,OMOP,condition_occurrence-condition_end_datetime,3,End time,397898000
+MedicalGS,UMLS,OMOP,condition_occurrence-condition_type_concept_id,1,Disease,C0012634
+MedicalGS,SNOMED-CT,OMOP,condition_occurrence-condition_type_concept_id,1,Disease,64572001
+MedicalGS,UMLS,OMOP,condition_occurrence-condition_type_concept_id,2,Type - attribute,C0332307
+MedicalGS,SNOMED-CT,OMOP,condition_occurrence-condition_type_concept_id,2,Type - attribute,261664005
+MedicalGS,UMLS,OMOP,condition_occurrence-condition_type_concept_id,3,concept,C0178566
+MedicalGS,UMLS,OMOP,condition_occurrence-condition_type_concept_id,4,Identification number,C1300638
+MedicalGS,SNOMED-CT,OMOP,condition_occurrence-condition_type_concept_id,3,Identification number,396278008
+MedicalGS,UMLS,OMOP,condition_occurrence-condition_status_concept_id,1,Disease,C0012634
+MedicalGS,SNOMED-CT,OMOP,condition_occurrence-condition_status_concept_id,1,Disease,64572001
+MedicalGS,UMLS,OMOP,condition_occurrence-condition_status_concept_id,2,Status,C0449438
+MedicalGS,SNOMED-CT,OMOP,condition_occurrence-condition_status_concept_id,2,Status,263490005
+MedicalGS,UMLS,OMOP,condition_occurrence-condition_status_concept_id,3,concept,C0178566
+MedicalGS,UMLS,OMOP,condition_occurrence-condition_status_concept_id,4,Identification number,C1300638
+MedicalGS,SNOMED-CT,OMOP,condition_occurrence-condition_status_concept_id,3,Identification number,396278008
+MedicalGS,UMLS,OMOP,condition_occurrence-stop_reason,1,Indication of (contextual qualifier),C0392360
+MedicalGS,SNOMED-CT,OMOP,condition_occurrence-stop_reason,1,Indication of (contextual qualifier),230165009
+MedicalGS,UMLS,OMOP,condition_occurrence-stop_reason,2,Stop (Instruction Imperative),C1947925
+MedicalGS,UMLS,OMOP,condition_occurrence-stop_reason,3,Documentation,C0920316
+MedicalGS,UMLS,OMOP,condition_occurrence-stop_reason,4,Disease,C0012634
+MedicalGS,SNOMED-CT,OMOP,condition_occurrence-stop_reason,2,Disease,64572001
+MedicalGS,UMLS,OMOP,condition_occurrence-provider_id,1,Provider,C1138603
+MedicalGS,UMLS,OMOP,condition_occurrence-provider_id,2,Identification number,C1300638
+MedicalGS,SNOMED-CT,OMOP,condition_occurrence-provider_id,1,Identification number,396278008
+MedicalGS,UMLS,OMOP,condition_occurrence-visit_occurrence_id,1,Patient Visit,C1512346
+MedicalGS,UMLS,OMOP,condition_occurrence-visit_occurrence_id,2,Occurrence,C2745955
+MedicalGS,SNOMED-CT,OMOP,condition_occurrence-visit_occurrence_id,1,Occurrence,246454002
+MedicalGS,UMLS,OMOP,condition_occurrence-visit_occurrence_id,3,Identification number,C1300638
+MedicalGS,SNOMED-CT,OMOP,condition_occurrence-visit_occurrence_id,2,Identification number,396278008
+MedicalGS,UMLS,OMOP,condition_occurrence-visit_detail_id,1,Patient Visit,C1512346
+MedicalGS,UMLS,OMOP,condition_occurrence-visit_detail_id,2,Occurrence,C2745955
+MedicalGS,SNOMED-CT,OMOP,condition_occurrence-visit_detail_id,1,Occurrence,246454002
+MedicalGS,UMLS,OMOP,condition_occurrence-visit_detail_id,3,Identification number,C1300638
+MedicalGS,SNOMED-CT,OMOP,condition_occurrence-visit_detail_id,2,Identification number,396278008
+MedicalGS,UMLS,OMOP,condition_occurrence-condition_source_value,1,Disease,C0012634
+MedicalGS,SNOMED-CT,OMOP,condition_occurrence-condition_source_value,1,Disease,64572001
+MedicalGS,UMLS,OMOP,condition_occurrence-condition_source_value,2,Source,C0449416
+MedicalGS,SNOMED-CT,OMOP,condition_occurrence-condition_source_value,2,Source,260753009
+MedicalGS,UMLS,OMOP,condition_occurrence-condition_source_value,3,Numerical value,C1522609
+MedicalGS,UMLS,OMOP,condition_occurrence-condition_source_concept_id,1,Disease,C0012634
+MedicalGS,SNOMED-CT,OMOP,condition_occurrence-condition_source_concept_id,1,Disease,64572001
+MedicalGS,UMLS,OMOP,condition_occurrence-condition_source_concept_id,2,Source,C0449416
+MedicalGS,SNOMED-CT,OMOP,condition_occurrence-condition_source_concept_id,2,Source,260753009
+MedicalGS,UMLS,OMOP,condition_occurrence-condition_source_concept_id,3,concept,C0178566
+MedicalGS,UMLS,OMOP,condition_occurrence-condition_source_concept_id,4,Identification number,C1300638
+MedicalGS,SNOMED-CT,OMOP,condition_occurrence-condition_source_concept_id,3,Identification number,396278008
+MedicalGS,UMLS,OMOP,condition_occurrence-condition_status_source_value,1,Disease,C0012634
+MedicalGS,SNOMED-CT,OMOP,condition_occurrence-condition_status_source_value,1,Disease,64572001
+MedicalGS,UMLS,OMOP,condition_occurrence-condition_status_source_value,2,Status,C0449438
+MedicalGS,SNOMED-CT,OMOP,condition_occurrence-condition_status_source_value,2,Status,263490005
+MedicalGS,UMLS,OMOP,condition_occurrence-condition_status_source_value,3,Source,C0449416
+MedicalGS,SNOMED-CT,OMOP,condition_occurrence-condition_status_source_value,3,Source,260753009
+MedicalGS,UMLS,OMOP,condition_occurrence-condition_status_source_value,4,Numerical value,C1522609
