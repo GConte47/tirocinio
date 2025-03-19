@@ -236,3 +236,87 @@ MedicalGS,SNOMED-CT,OMOP,condition_occurrence-condition_status_source_value,2,St
 MedicalGS,UMLS,OMOP,condition_occurrence-condition_status_source_value,3,Source,C0449416
 MedicalGS,SNOMED-CT,OMOP,condition_occurrence-condition_status_source_value,3,Source,260753009
 MedicalGS,UMLS,OMOP,condition_occurrence-condition_status_source_value,4,Numerical value,C1522609
+MedicalGS,UMLS,OMOP,person-person,1,Patient Information,C1955348
+MedicalGS,UMLS,OMOP,person-person_id,1,Clinical Trial Subject Unique Identifier,C2348585
+MedicalGS,UMLS,OMOP,person-gender_concept_id,1,Gender,C0079399
+MedicalGS,SNOMED-CT,OMOP,person-gender_concept_id,1,Gender,263495000
+MedicalGS,UMLS,OMOP,person-gender_concept_id,2,concept,C0178566
+MedicalGS,UMLS,OMOP,person-gender_concept_id,3,Identification number,C1300638
+MedicalGS,SNOMED-CT,OMOP,person-gender_concept_id,2,Identification number,396278008
+MedicalGS,UMLS,OMOP,person-year_of_birth,1,Birth Year,C2826771
+MedicalGS,UMLS,OMOP,person-month_of_birth,1,month,C0439231
+MedicalGS,SNOMED-CT,OMOP,person-month_of_birth,1,month,258706009
+MedicalGS,UMLS,OMOP,person-day_of_birth,1,day,C0439228
+MedicalGS,SNOMED-CT,OMOP,person-day_of_birth,1,day,258703001
+MedicalGS,UMLS,OMOP,person-datetime_of_birth,1,Patient date of birth,C0421451
+MedicalGS,SNOMED-CT,OMOP,person-datetime_of_birth,1,Patient date of birth,184099003
+MedicalGS,UMLS,OMOP,person-datetime_of_birth,2,Birth time,C2736116
+MedicalGS,UMLS,OMOP,person-datetime_of_death,1,Date of death,C1148348
+MedicalGS,SNOMED-CT,OMOP,person-datetime_of_death,1,Date of death,399753006
+MedicalGS,UMLS,OMOP,person-datetime_of_death,2,Time of death,C1301931
+MedicalGS,SNOMED-CT,OMOP,person-datetime_of_death,2,Time of death,398299004
+MedicalGS,UMLS,OMOP,person-race_concept_id,1,Racial group,C0034510
+MedicalGS,SNOMED-CT,OMOP,person-race_concept_id,1,Racial group,415229000
+MedicalGS,UMLS,OMOP,person-race_concept_id,2,concept,C0178566
+MedicalGS,UMLS,OMOP,person-race_concept_id,3,Identification number,C1300638
+MedicalGS,SNOMED-CT,OMOP,person-race_concept_id,2,Identification number,396278008
+MedicalGS,UMLS,OMOP,person-ethnicity_concept_id,1,Ethnic group,C0015031
+MedicalGS,SNOMED-CT,OMOP,person-ethnicity_concept_id,1,Ethnic group,398089004
+MedicalGS,UMLS,OMOP,person-ethnicity_concept_id,2,concept,C0178566
+MedicalGS,UMLS,OMOP,person-ethnicity_concept_id,3,Identification number,C1300638
+MedicalGS,SNOMED-CT,OMOP,person-ethnicity_concept_id,2,Identification number,396278008
+MedicalGS,UMLS,OMOP,person-location_id,1,Location,C0450429
+MedicalGS,SNOMED-CT,OMOP,person-location_id,1,Location,246267002
+MedicalGS,UMLS,OMOP,person-location_id,2,Identification number,C1300638
+MedicalGS,SNOMED-CT,OMOP,person-location_id,2,Identification number,396278008
+MedicalGS,UMLS,OMOP,person-location_id,1,Location,C0450429
+MedicalGS,UMLS,OMOP,person-location_id,2,Identification number,C1300638
+MedicalGS,SNOMED-CT,OMOP,person-location_id,1,Identification number,396278008
+MedicalGS,UMLS,OMOP,person-provider_id,1,Provider,C1138603
+MedicalGS,UMLS,OMOP,person-provider_id,2,Identification number,C1300638
+MedicalGS,SNOMED-CT,OMOP,person-provider_id,1,Identification number,396278008
+MedicalGS,UMLS,OMOP,person-care_site_id,1,Site of care,C0337950
+MedicalGS,SNOMED-CT,OMOP,person-care_site_id,1,Site of care,43741000
+MedicalGS,UMLS,OMOP,person-care_site_id,2,Identification number,C1300638
+MedicalGS,SNOMED-CT,OMOP,person-care_site_id,2,Identification number,396278008
+MedicalGS,UMLS,OMOP,person-person_source_value,1,Persons,C0027361
+MedicalGS,SNOMED-CT,OMOP,person-person_source_value,1,Persons,125676002
+MedicalGS,UMLS,OMOP,person-person_source_value,2,Source,C0449416
+MedicalGS,SNOMED-CT,OMOP,person-person_source_value,2,Source,260753009
+MedicalGS,UMLS,OMOP,person-person_source_value,3,Numerical value,C1522609
+MedicalGS,UMLS,OMOP,person-gender_source_value,1,Gender,C0079399
+MedicalGS,SNOMED-CT,OMOP,person-gender_source_value,1,Gender,263495000
+MedicalGS,UMLS,OMOP,person-gender_source_value,2,Source,C0449416
+MedicalGS,SNOMED-CT,OMOP,person-gender_source_value,2,Source,260753009
+MedicalGS,UMLS,OMOP,person-gender_source_value,3,Numerical value,C1522609
+MedicalGS,UMLS,OMOP,person-gender_source_concept_id,1,Gender,C0079399
+MedicalGS,SNOMED-CT,OMOP,person-gender_source_concept_id,1,Gender,263495000
+MedicalGS,UMLS,OMOP,person-gender_source_concept_id,2,Source,C0449416
+MedicalGS,SNOMED-CT,OMOP,person-gender_source_concept_id,2,Source,260753009
+MedicalGS,UMLS,OMOP,person-gender_source_concept_id,3,Concept,C0178566
+MedicalGS,UMLS,OMOP,person-gender_source_concept_id,4,Identification number,C1300638
+MedicalGS,SNOMED-CT,OMOP,person-gender_source_concept_id,3,Identification number,396278008
+MedicalGS,UMLS,OMOP,person-race_source_value,1,Racial group,C0034510
+MedicalGS,SNOMED-CT,OMOP,person-race_source_value,1,Racial group,415229000
+MedicalGS,UMLS,OMOP,person-race_source_value,2,Source,C0449416
+MedicalGS,SNOMED-CT,OMOP,person-race_source_value,2,Source,260753009
+MedicalGS,UMLS,OMOP,person-race_source_value,3,Numerical value,C1522609
+MedicalGS,UMLS,OMOP,person-race_source_concept_id,1,Racial group,C0034510
+MedicalGS,SNOMED-CT,OMOP,person-race_source_concept_id,1,Racial group,415229000
+MedicalGS,UMLS,OMOP,person-race_source_concept_id,2,Source,C0449416
+MedicalGS,SNOMED-CT,OMOP,person-race_source_concept_id,2,Source,260753009
+MedicalGS,UMLS,OMOP,person-race_source_concept_id,3,Concept,C0178566
+MedicalGS,UMLS,OMOP,person-race_source_concept_id,4,Identification number,C1300638
+MedicalGS,SNOMED-CT,OMOP,person-race_source_concept_id,3,Identification number,396278008
+MedicalGS,UMLS,OMOP,person-ethnicity_source_value,1,Ethnic group,C0015031
+MedicalGS,SNOMED-CT,OMOP,person-ethnicity_source_value,1,Ethnic group,398089004
+MedicalGS,UMLS,OMOP,person-ethnicity_source_value,2,Source,C0449416
+MedicalGS,SNOMED-CT,OMOP,person-ethnicity_source_value,2,Source,260753009
+MedicalGS,UMLS,OMOP,person-ethnicity_source_value,3,Numerical value,C1522609
+MedicalGS,UMLS,OMOP,person-ethnicity_source_concept_id,1,Ethnic group,C0015031
+MedicalGS,SNOMED-CT,OMOP,person-ethnicity_source_concept_id,1,Ethnic group,398089004
+MedicalGS,UMLS,OMOP,person-ethnicity_source_concept_id,2,Source,C0449416
+MedicalGS,SNOMED-CT,OMOP,person-ethnicity_source_concept_id,2,Source,260753009
+MedicalGS,UMLS,OMOP,person-ethnicity_source_concept_id,3,Concept,C0178566
+MedicalGS,UMLS,OMOP,person-ethnicity_source_concept_id,4,Identification number,C1300638
+MedicalGS,SNOMED-CT,OMOP,person-ethnicity_source_concept_id,3,Identification number,396278008
