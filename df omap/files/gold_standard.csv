@@ -10,8 +10,10 @@ MedicalGS,UMLS,OMOP,location-location_id,1,Location,C0450429
 MedicalGS,SNOMED-CT,OMOP,location-location_id,1,Location,246267002
 MedicalGS,UMLS,OMOP,location-location_id,2,Identification number,C1300638
 MedicalGS,SNOMED-CT,OMOP,location-location_id,2,Identification number,396278008
-MedicalGS,UMLS,OMOP,location-address,1,Address,C1442065
-MedicalGS,SNOMED-CT,OMOP,location-address,1,Address,397635003
+MedicalGS,UMLS,OMOP,location-address_1,1,Address,C1442065
+MedicalGS,SNOMED-CT,OMOP,location-address_1,1,Address,397635003
+MedicalGS,UMLS,OMOP,location-address_2,1,Address,C1442065
+MedicalGS,SNOMED-CT,OMOP,location-address_2,1,Address,397635003
 MedicalGS,UMLS,OMOP,location-city,1,City,C0008848
 MedicalGS,UMLS,OMOP,location-city,2,Address,C1442065
 MedicalGS,SNOMED-CT,OMOP,location-city,1,Address,397635003
@@ -32,10 +34,10 @@ MedicalGS,UMLS,OMOP,location-country,1,Country,C0454664
 MedicalGS,SNOMED-CT,OMOP,location-country,1,Country,223369002
 MedicalGS,UMLS,OMOP,location-country,2,Address,C1442065
 MedicalGS,SNOMED-CT,OMOP,location-country,2,Address,397635003
-MedicalGS,UMLS,OMOP,location-location_source-value,1,Location,C0450429
-MedicalGS,SNOMED-CT,OMOP,location-location_source-value,1,Location,246267002
-MedicalGS,UMLS,OMOP,location-location_source-value,2,Source,C0449416
-MedicalGS,SNOMED-CT,OMOP,location-location_source-value,2,Source,260753009
+MedicalGS,UMLS,OMOP,location-location_source_value,1,Location,C0450429
+MedicalGS,SNOMED-CT,OMOP,location-location_source_value,1,Location,246267002
+MedicalGS,UMLS,OMOP,location-location_source_value,2,Source,C0449416
+MedicalGS,SNOMED-CT,OMOP,location-location_source_value,2,Source,260753009
 MedicalGS,UMLS,OMOP,location-latitude,1,Latitude,C1627936
 MedicalGS,UMLS,OMOP,location-latitude,2,Address,C1442065
 MedicalGS,SNOMED-CT,OMOP,location-latitude,1,Address,397635003
